@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <meta charset="utf-8" />
+        <title>Best Management College in Greater Noida</title>
+        <link rel="canonical" href="https://www.gims.net.in/mba-pgdm-admission/" />
+        <link rel="alternate" hreflang="en-us" href="https://www.gims.net.in/mba-pgdm-admission/" />
+        <meta name="description" content="Best PGDM & MBA private Colleges in Delhi, India, Top GBTU Colleges, Top  PGDM  Colleges, Best PGDM & MBA Institute Top 10 Rank PGDM & MBA College in Delhi NCR" />
+        <meta name="keywords" content="college, PGDM College, MBA College, College in Greater Noida" />
+    
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="https://www.gims.net.in/img/fevicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://www.gims.net.in/img/fevicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://www.gims.net.in/img/fevicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://www.gims.net.in/img/fevicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://www.gims.net.in/img/fevicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://www.gims.net.in/img/fevicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://www.gims.net.in/img/fevicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://www.gims.net.in/img/fevicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://www.gims.net.in/img/fevicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="https://www.gims.net.in/img/fevicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://www.gims.net.in/img/fevicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://www.gims.net.in/img/fevicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://www.gims.net.in/img/fevicon/favicon-16x16.png">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+        <!-- <link rel="preload" href="_next/static/css/3d3d2943372e5cbc.css" as="style" /> -->
+        <link rel="stylesheet" href="_next/static/css/3d3d2943372e5cbc.css" data-n-g="" />
+        <!-- <link rel="preload" href="_next/static/css/898a7af19dc98577.css" as="style" /> -->
+        <!-- <link rel="stylesheet" href="_next/static/css/898a7af19dc98577.css" data-n-p="" /> -->
+        <link rel="stylesheet" href="_next/static/css/style.css" />
+        <link rel="stylesheet" href="_next/static/css/bootstrap.min.css" />
+        <!-- <link rel="stylesheet" href="_next/static/css/slick.min.css" /> -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- <link rel="stylesheet" href="_next/static/css/responsive.css" /> -->
+        <link rel="stylesheet" href="css/lp.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="font.css" />
+        
+        <style>
+            div.captcha button#CaptchaRefreshBtn{
+                margin-left: 0 !important;
+                background-color: unset !important;
+            }
+
+            
+@media only screen and (max-width: 575px) {
+    .menucontact {
+    margin: 10px auto;
+}
+.logo {
+    width: 320px;
+    margin: 0 auto;
+}
+
+}
+
+/* cookies */
+     .wrapperCookie {
+  position: fixed;
+  bottom: 50px;
+  left: -448px;
+  max-width: 425px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+.wrapperCookie.showDiv {
+  left: 20px;
+}
+.wrapperCookie header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.wrapperCookie .data {
+  margin-top: 16px;
+}
+.wrapperCookie .data p {
+  color: #333;
+  font-size: 16px;
+}
+.data p a {
+  color: #4070f4;
+  text-decoration: none;
+}
+.data p a:hover {
+  text-decoration: underline;
+}
+.wrapperCookie .buttonCookiesCookie {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonCookiesCookie .buttonCookie {
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #4070f4;
+  cursor: pointer;
+  width: calc(100% / 2 - 10px);
+  transition: all 0.2s ease;
+}
+.buttonCookiesCookie #acceptBtn:hover {
+  background-color: #034bf1;
+}
+#declineBtn {
+  border: 2px solid #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}
+#declineBtn:hover {
+  background-color: #4070f4;
+  color: #fff;
+}
+
+ </style>
+ 
+        
+         <!--No-paper Track code-->
+<script type="text/javascript"> var npf_d='https://apply.gniotgroup.edu.in/'; var npf_c='19'; var npf_m='1'; var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://track.nopaperforms.com/js/track.js"; document.body.appendChild(s); </script>
+<!--No-paper Track code End-->
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10941298128"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10941298128');
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXM3DQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Event snippet for GIMS-Landing-Page-View conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-10941298128/t155CKGu84UYENDrm-Eo'});
+</script>
+
+
+    </head>
+    <body>
+
+          <!-- cookies -->
+          <div class="wrapperCookie">
+            <header>
+              <!-- <i class="bx bx-cookie"></i> -->
+              <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M480.177-80q-82.822 0-155.666-31.5t-127.178-85.833Q143-251.667 111.5-324.667T80-480q0-80.333 30.667-152.667 30.666-72.333 84-127.833Q248-816 320.333-848.5 392.667-881 475.37-881q19.963 0 39.963 1.667 20 1.666 40.333 6-6.999 41.666 6.334 80.666 13.333 39 41 67.5 27.666 28.5 68.166 42.167 40.5 13.667 87.834 4.667Q745.667-616.666 776.167-568q30.5 48.667 102.5 54 1 9.667 1.166 18.833Q880-486 880-477q0 81.589-31.5 153.726Q817-251.138 763-196.911q-54 54.227-127 85.569Q563-80 480.177-80Zm-60.099-478.667q25.589 0 43.422-17.911 17.833-17.912 17.833-43.5 0-25.589-17.911-43.422-17.912-17.833-43.5-17.833-25.589 0-43.422 17.911-17.833 17.912-17.833 43.5 0 25.589 17.911 43.422 17.912 17.833 43.5 17.833Zm-80 200q25.589 0 43.422-17.911 17.833-17.912 17.833-43.5 0-25.589-17.911-43.422-17.912-17.833-43.5-17.833-25.589 0-43.422 17.911-17.833 17.912-17.833 43.5 0 25.589 17.911 43.422 17.912 17.833 43.5 17.833ZM600-320q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320ZM480-146.666q135.334 0 229.5-90.334 94.167-90.333 104.5-225-52.666-20.667-84.5-59.667-31.833-39-40.5-88.667-79.667-11-135-68.666-55.333-57.667-65-135.334-76-2.666-139.166 25.667-63.167 28.333-108.334 75.833T171.5-604q-24.834 61.333-24.834 124 0 139 97.167 236.167T480-146.666Zm.667-338.001Z"/></svg>
+              <h2 class="cookies-heading">Cookies Consent</h2>
+            </header>
+            <div class="data cookies-detail">
+              <p>This website use cookies to help you have a superior and more relevant browsing experience on the website.
+                 <!-- <a href="#"> Read more...</a> -->
+                </p>
+            </div>
+           
+              <div class="buttonCookiesCookie">
+                <button class="buttonCookie" id="acceptBtn">Accept</button>
+                <button class="buttonCookie" id="declineBtn">Decline</button>
+              </div>
+          </div>
+
+        <header class="menuHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="resources/images/logos/logo.png" alt="" class="logo">
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="menucontact"> 
+                            <a href="tel:18002746969"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 18002746969 </a>
+                            <a href="mailto:admission@gniot.net.in"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> admission@gniot.net.in </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <div class="fist-section">
+            <img src="img/banner.jpg" class="DeskBanner" alt="" width="100%">
+            <img src="img/banner-phone.jpg" class="phoneBanner" alt="" width="100%">
+        </div>
+        <!-- <div class="fist-section" style="background-image: url();">
+            <p class="menucontact"> 
+                <a href="tel:18002746969"><img src="resources/images/icon/call.svg" alt=""> 18002746969 </a>
+                <a href="mailto:admission@gniot.net.in"><img src="resources/images/icon/email.svg" alt=""> admission@gniot.net.in </a>
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="resources/images/logos/logo.png" alt="" class="logo">
+                        <div class="textdiv">
+                            <h1 class="tagline">
+                                <span>PGDM 4.0@GIMS</span>
+                                IDEA TO EXECUTION
+                            </h1>
+                            <div class="package-highlight">
+                                <h2 class="pchighp">
+                                    <span class="pch1">INTERNATIONAL</span>
+                                    <span class="pch2">PACKAGE 70.0 LPA</span>
+                                </h2>
+                                <h2 class="pchighp">
+                                    <span class="pch1">DOMESTIC</span>
+                                    <span class="pch2">PACKAGE 27.61 LPA</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6"></div>
+                </div>
+            </div>
+        </div> -->
+        <div class="second-section">
+            <div class="container">
+                <div class="row secrow" >
+                    <div class="col-sm-7" style="padding-right: 0;">
+                        <div class="textdiv">
+                            <!-- <h1 class="tagline">
+                                <span>PGDM 4.0@GIMS</span>
+                                IDEA TO EXECUTION
+                            </h1> -->
+                            <div class="package-highlight">
+                                <h2 class="pchighp">
+                                    <span class="pch1">INTERNATIONAL</span>
+                                    <span class="pch2">PACKAGE 70.0 LPA</span>
+                                </h2>
+                                <h2 class="pchighp">
+                                    <span class="pch1">DOMESTIC</span>
+                                    <span class="pch2">PACKAGE 27.61 LPA</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="leftside">
+                            <h2 class="pagetitle titlewhiteres" style="margin-left: -18px;"><img src="resources/images/icon/certificate.svg" alt="">APPROVALS AND ACCREDITATIONS</h2>
+                            <div class="row">
+                                <div class="col-md-6 no-padding" style="padding-right:15px !important;">
+                                    <ul class="learning-out">
+                                        <li>Higher Learning Accreditation Consultant &amp; Training (HLACT)</li>
+                                        <li>IIMBx</li>
+                                        <li>ATAL Incubation Centre, BIMTECH</li>
+                                        <li>Ministry of Micro, Small &amp; Medium Enterprises (MSME)</li>
+                                        <li>Analytics Society of India (ASI)</li>
+                                        <li>Xavier School of Management (XLRI)</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 no-padding" style="padding-right:15px !important;">
+                                    <ul class="learning-out">
+                                        <li>New Age Startups &amp; Entrepreneurship</li>
+                                        <li> NHRD</li>
+                                        <li>Data Centre &amp; Analytics Lab (DCAL)</li>
+                                        <li>International Association of Supply Chain  Management (IACM)</li>
+                                        <li>Association of Indian Management Schools (AIMS)</li>
+                                        <li>BFSI, besides others.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="formdiv" style="padding:15px;">
+                            <div class="forminputdiv" id="form">
+                                <span class="formtitle">Enroll Now</span>
+                                <div class="npf_wgts" data-height="450px" style="width: 100%;" data-w="eb898b180ec4d5687fe0d32cd0b53569"></div>
+                            </div>
+                            <div class="formtextdiv">
+                                <h3 class="pagetitle">PGDM PROGRAM</h3>
+                                <p>PGDM 4.0 (Idea to Execution) offered at GNIOT Institute of Management (GIMS) is the flagship program of GNIOT Group of Institutions. The program aims to develop dynamic decision making ability amongst students and empowers them with the knowledge & skills to tackle the grand challenges being created by Industry – 4.0. The curriculum 4.0 creates visionary leaders by exposing them with contextual learning and innovation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third-section">
+            <div class="container">
+                <div class="row point-row">
+                    <div class="col-md-12">
+                        <div class="pointmain">
+                            <div class="pointdiv">
+                                <p class="pointlist">
+                                    <span>17000+</span>
+                                    Proud Alumni
+                                </p>
+                                <p class="pointlist">
+                                    <span>93%</span>
+                                    Placements
+                                </p>
+                                <p class="pointlist">
+                                    <span>5000+</span>
+                                    Students
+                                </p>
+                                <p class="pointlist">
+                                    <span>400+</span>
+                                    Faculties
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="ipsection">
+            <div class="container">
+            <h2 class="pagetitle"><img src="resources/images/icon/certificate.svg" alt="">International Placement</h2>
+                <p>Breakthrough Group Placement in international Companies</p>
+                <div class="uppip">
+                    <div class="row">
+                        <div class="col-md-6 ipimagebg no-padding">
+                            <img src="resources/images/home/student.png" alt=" International Placed student" width="100%">
+                        </div>
+                        <div class="col-md-6 no-padding">
+                            <div class="placedcompany">
+                                <div class="comlist">
+                                    <div>
+                                        <img src="resources/images/home/company-logo/lam.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="ipackage">
+                                            27.61<span>Lakh Per Annum</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="comlist">
+                                    <div>
+                                        <img src="resources/images/home/company-logo/amazon.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="ipackage">
+                                            70.00<span>Lakh Per Annum</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="comlist" style="border:none;">
+                                    <div>
+                                        <img src="resources/images/home/company-logo/pp.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="ipackage">
+                                            23.31<span>Lakh Per Annum</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fourthsection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="resources/images/home/pgdm.webp" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="row" style="padding-left: 20px;">
+                            <div class="col-md-12">
+                                <h2 class="pagetitle" style="margin-left: -18px;"><img src="resources/images/icon/college.svg" alt="">THE PROGRAM OFFERS DUAL SPECIALIZATION IN:</h2>
+                                <ul class="newul">
+									<li>Marketing</li>
+									<li>OB & Human resource Management</li>
+									<li>Finance</li>
+									<li>Information technology & Business Analytics</li>
+									<li>Logistics & Supply Chain Management</li>
+									<li>New Age Startups & Entrepreneurship</li>
+									<li>International Business</li>
+								</ul>
+                            </div>
+                            <div class="col-md-12">
+                                <h2 class="pagetitle" style="margin-left: -18px;"><img src="resources/images/icon/college-book.svg" alt="">SKILL AUGMENTED CERTIFICATIONS (SAC)</h2>
+                               <div class="row">
+                                   <div class="col-md-8 no-padding">
+                                        <ul class="newul">
+                                            <li>Power BI & Data Visualization</li>
+                                            <li>Digital Marketing & Social Media Marketing</li>
+                                            <li>Design Thinking & Entrepreneurship</li>
+                                            <li>Statistical Package for Social Sciences (SPSS)</li>
+                                            <li>Foreign Language (French/German)</li>
+                                            <li>Blockchain</li>
+                                            <li>Yellow Belt Six Sigma </li>
+                                            <li>Marketing Analytics</li>
+                                        </ul>
+                                   </div>
+                                   <div class="col-md-4 no-padding">
+                                        <ul class="newul">
+                                            <li>Business Analytics</li>
+                                            <li>HR Analytics</li>
+                                            <li>HR Compliances </li>
+                                            <li>Financial Modeling </li>
+                                            <li>Elective Based Certifications*</li>
+                                        </ul>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fifth-section">
+            <div class="container">
+                <h2 class="pagetitle titleres" style="margin-left: -18px;"><img src="resources/images/icon/book.svg" alt="">GIMS EDGE</h2>
+                <br>
+                <div class="row">
+                    <div class="col-md-4 no-padding">
+                        <div class="edgediv">
+                            <p class="edgtitle">PROGRAM HIGHLIGHTS</p>
+                            <ul class="edgeul">
+                                <li> Business Awareness Programs </li>
+                                <li>Internal Quality Assurance Cell </li>
+                                <li>Pre-Placement Module (PPM)</li>
+                                <li>Industry Faculty for Elective Papers </li>
+                                <li>Quality Certificate for Skill Enhancement </li>
+                                <li>Nushantra Project</li>
+                                <li>Global Immersion Program</li>
+                                <li>Mentorship Programs</li>
+                                <li>Personality Engagement Program (PEP) </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8 no-padding">
+                        <div class="icimages">
+                            <img src="img/ic.jpg" alt="">
+                        </div>
+                    </div>
+                    <!--<div class="col-md-4 no-padding">
+                        <div class="edgediv">
+                            <p class="edgtitle">Value Added
+                                    Certification Programmes</p>
+                            <ul class="edgeul">
+                                <li> Business Awareness Programs </li>
+                                <li>Internal Quality Assurance Cell </li>
+                                <li>Pre-Placement Module (PPM)</li>
+                                <li>Industry Faculty for Elective Papers </li>
+                                <li>Quality Certificate for Skill Enhancement </li>
+                                <li>Nushantra Project</li>
+                                <li>Global Immersion Program</li>
+                                <li>Mentorship Programs</li>
+                                <li>Personality Engagement Program (PEP) </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 no-padding">
+                        <div class="edgediv">
+                            <p class="edgtitle">Employability Skills
+                                Improvement Programme</p>
+                            <ul class="edgeul">
+                                <li> Business Awareness Programs </li>
+                                <li>Internal Quality Assurance Cell </li>
+                                <li>Pre-Placement Module (PPM)</li>
+                                <li>Industry Faculty for Elective Papers </li>
+                                <li>Quality Certificate for Skill Enhancement </li>
+                                <li>Nushantra Project</li>
+                                <li>Global Immersion Program</li>
+                                <li>Mentorship Programs</li>
+                                <li>Personality Engagement Program (PEP) </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 no-padding">
+                        <div class="edgediv">
+                            <p class="edgtitle">Performance Improvement
+                                Programmes (PIP)</p>
+                            <ul class="edgeul">
+                                <li> Business Awareness Programs </li>
+                                <li>Internal Quality Assurance Cell </li>
+                                <li>Pre-Placement Module (PPM)</li>
+                                <li>Industry Faculty for Elective Papers </li>
+                                <li>Quality Certificate for Skill Enhancement </li>
+                                <li>Nushantra Project</li>
+                                <li>Global Immersion Program</li>
+                                <li>Mentorship Programs</li>
+                                <li>Personality Engagement Program (PEP) </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 no-padding">
+                        <div class="edgediv">
+                            <p class="edgtitle">Corporate Interface</p>
+                            <ul class="edgeul">
+                                <li> Business Awareness Programs </li>
+                                <li>Internal Quality Assurance Cell </li>
+                                <li>Pre-Placement Module (PPM)</li>
+                                <li>Industry Faculty for Elective Papers </li>
+                                <li>Quality Certificate for Skill Enhancement </li>
+                                <li>Nushantra Project</li>
+                                <li>Global Immersion Program</li>
+                                <li>Mentorship Programs</li>
+                                <li>Personality Engagement Program (PEP) </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 no-padding">
+                        <div class="edgediv">
+                            <p class="edgtitle">Corporate Social Responsibility
+                                (CSR) Initiatives</p>
+                            <ul class="edgeul">
+                                <li> Business Awareness Programs </li>
+                                <li>Internal Quality Assurance Cell </li>
+                                <li>Pre-Placement Module (PPM)</li>
+                                <li>Industry Faculty for Elective Papers </li>
+                                <li>Quality Certificate for Skill Enhancement </li>
+                                <li>Nushantra Project</li>
+                                <li>Global Immersion Program</li>
+                                <li>Mentorship Programs</li>
+                                <li>Personality Engagement Program (PEP) </li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="placement-section">
+            <div class="container">
+                <div class="placement-infographic">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="pihead">
+                                <h4 class="piheadtitle">Placement <span>@ GIMS</span></h4>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row pirowhieght">
+                                <div class="col-md-3">
+                                    <div class="pckmain">
+                                        <div class="packagediv">
+                                            <p class="packagemain">23.00<span>Lakh Per Annum</span></p>
+                                            <p class="packagesub">Highest Package <span>International</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="pckmain">
+                                        <div class="packagediv">
+                                            <p class="packagemain">12.50<span>Lakh Per Annum</span></p>
+                                            <p class="packagesub">Highest Package <span>Domastic</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="pckmain">
+                                        <div class="packagediv">
+                                            <p class="packagemain">3 Offeres</p>
+                                            <p class="packagesub">Average offer Received per Student</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="pckmain">
+                                        <div class="packagediv">
+                                            <p class="packagemain">7.02 <span>Lakh Per Annum</span></p>
+                                            <p class="packagesub">Average Package</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sixth-section">
+            <div class="container">
+                <h2 class="pagetitle titleres" style="margin-left: -18px;"><img src="resources/images/icon/placement.svg" alt="">RECENT PLACEMENT</h2>
+                <br>
+                <div class="row">
+                    <div class="col-md-8 pdgphoneon8" style="padding-left: 0;">
+                        <!-- <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="leader-profile mt-0 text-center">
+                                    <div class="compny-logo-box ffirst">
+                                        <p>
+                                            8.49
+                                            <span>LPA</span>
+                                        </p>
+                                    </div>
+                                    <div class="leader-dp mx-auto">
+                                        <img src="resources/images/home/Ambuj-Kumar-Pandey.jpg" alt="Ambuj-Kumar-Pandey">
+                                    </div>
+                                    <div class="stu-slider-name position-static mx-auto">
+                                        <h3>Ambuj Kr. Pandey </h3>
+                                        <span>Satguru Travels and Tourism LLC</span> 
+                                        <span>Finance &amp; Accounts Manager (Internal Auditor)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="leader-profile mt-0 text-center">
+                                    <div class="compny-logo-box ffirst">
+                                        <p>
+                                            8.00
+                                            <span>LPA</span>
+                                        </p>
+                                    </div>
+                                    <div class="leader-dp mx-auto">
+                                        <img src="resources/images/home/sanjana.jpg" alt="Sanjana Kumari Singh">
+                                    </div>
+                                    <div class="stu-slider-name position-static mx-auto">
+                                        <h3>Sanjana Kr. Singh</h3>
+                                        <span>UpGrad Education</span>
+                                        <span>Associate Admission Counsellor</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="leader-profile mt-0 text-center no-mb">
+                                    <div class="compny-logo-box ffirst">
+                                        <p>
+                                            7.35
+                                            <span>LPA</span>
+                                        </p>
+                                    </div>
+                                    <div class="leader-dp mx-auto">
+                                        <img src="resources/images/home/Sumedha-Srivastava.jpg" alt="Sumedha Srivastava">
+                                    </div>
+                                    <div class="stu-slider-name position-static mx-auto">
+                                        <h3>Sumedha Srivastava</h3>
+                                        <span>Arhcher &amp; Bull</span>
+                                        <span>Management Trainee - HR</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="leader-profile mt-0 text-center no-mb">
+                                    <div class="compny-logo-box ffirst">
+                                        <p>
+                                            5.07
+                                            <span>LPA</span>
+                                        </p>
+                                    </div>
+                                    <div class="leader-dp mx-auto">
+                                        <img src="resources/images/home/Rahul-Kumar.jpg" alt="Khushboo Kumari">
+                                    </div>
+                                    <div class="stu-slider-name position-static mx-auto">
+                                        <h3>Rahul Kumar</h3>
+                                        <span>Berger Paints</span>
+                                        <span>Sr. Sales Officer Trainee</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="studntplsd-bg">
+                                    <img src="resources/images/placed-student/rahul-kumar.jpg" class="placedstudentimg" alt="Rahul-Kumar">
+                                    <h3 class="plsdstudent-name">Rahul Kumar</h3>
+                                    <div class="plsdclogodiv">
+                                        <img src="resources/images/placed-student/berger.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="studntplsd-bg">
+                                    <img src="resources/images/placed-student/priyanka-srivastava.jpg" class="placedstudentimg" alt="Rahul-Kumar">
+                                    <h3 class="plsdstudent-name">Priyanka Srivastava</h3>
+                                    <div class="plsdclogodiv">
+                                        <img src="resources/images/placed-student/tc.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="studntplsd-bg">
+                                    <img src="resources/images/placed-student/vinay.jpg" class="placedstudentimg" alt="Rahul-Kumar">
+                                    <h3 class="plsdstudent-name">Vinay Kumar Mishra</h3>
+                                    <div class="plsdclogodiv">
+                                        <img src="resources/images/placed-student/sls.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="studntplsd-bg last3div">
+                                    <img src="resources/images/placed-student/rajnish.jpg" class="placedstudentimg" alt="Rahul-Kumar">
+                                    <h3 class="plsdstudent-name">Rajnish Kr. Jha</h3>
+                                    <div class="plsdclogodiv">
+                                        <img src="resources/images/placed-student/au.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="studntplsd-bg last3div">
+                                    <img src="resources/images/placed-student/mojahid.jpg" class="placedstudentimg" alt="Rahul-Kumar">
+                                    <h3 class="plsdstudent-name">Mojahid Ahmed Siddiqui</h3>
+                                    <div class="plsdclogodiv">
+                                        <img src="resources/images/placed-student/blinkit.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="studntplsd-bg last3div">
+                                    <img src="resources/images/placed-student/sumedha.jpg" class="placedstudentimg" alt="Rahul-Kumar">
+                                    <h3 class="plsdstudent-name">Sumedha Srivastava</h3>
+                                    <div class="plsdclogodiv">
+                                        <img src="resources/images/placed-student/ab.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="recordimgdivmain">
+                            <h2 class="pagetitle" ><img src="resources/images/icon/graduate.svg" alt="">Placements Rate</h2>
+                            <div class="recordimgdiv">
+                                <img src="resources/images/icon/circle.svg" alt="">
+                                <p class="imgrectext">97%</p>
+                            </div>
+                            <p class="plrecpara">of our<span>PGDM & MBA students.</span>Our Students has been placed with excellent package in National and International Companies</p>
+                            <a href="#topm" class="applybtn"> Apply Now</a>
+                            <a href="#topm" class="applybtn"> Download boucher</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seventh-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/clubs.jpg" alt="">
+                    </div>
+                    <div class="col-md-7 logo-div no-padding">
+                        <div class="col-md-12" style="padding-left: 0;">
+                            <h2 class="pagetitle" ><img src="resources/images/icon/certificate.svg" alt="">Collaborations & Mous</h2>
+                            <ul class="smlogo">
+                                <li><img src="resources/images/mous-coll/aicte.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/albpm.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/iimbx.jpg" alt=""></li>
+                                <li><img src="resources/images/mous-coll/aims.jpg" alt=""></li>
+                                <li><img src="resources/images/mous-coll/analytics.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/atal.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/indra-gandhi.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/msme.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/nhrd.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/iacm.jpg" alt=""></li>
+                                <li><img src="resources/images/mous-coll/unmas.png" alt=""></li>
+                                <li><img src="resources/images/mous-coll/xlri.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12" style="padding-left: 0;">
+                            <br>
+                            <h2 class="pagetitle" ><img src="resources/images/icon/certificate.svg" alt="">Institutional Clubs</h2>
+                            <ul class="smlogo">
+                                <li><img src="resources/images/club/abhiyude.png" alt=""></li>
+                                <li><img src="resources/images/club/arthvitt.png" alt=""></li>
+                                <li><img src="resources/images/club/ccd-logo.png" alt=""></li>
+                                <li><img src="resources/images/club/hashtag.png" alt=""></li>
+                                <li><img src="resources/images/club/i-analytika.png" alt=""></li>
+                                <li><img src="resources/images/club/nutan.png" alt=""></li>
+                                <li><img src="resources/images/club/pramarsh.png" alt=""></li>
+                                <li><img src="resources/images/club/samarpan.png" alt=""></li>
+                                <li><img src="resources/images/club/sanskriti.png" alt=""></li>
+                                <li><img src="resources/images/club/spardhaa.png" alt=""></li>
+                                <li><img src="resources/images/club/vishleshan.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="padding-left: 0;">
+                        <br>
+                        <h2 class="pagetitle" ><img src="resources/images/icon/certificate.svg" alt="">Our Recruiters</h2>
+                        <ul class="recrulogo">
+                            <li><img src="resources/images/recruiters/ey.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/berger-paints.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/dabur.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/icici.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/ibm.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/naukri.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/kr.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/deloitte.jpg" alt="Our Recruiters"></li>
+                            <!-- <li><img src="resources/images/recruiters/hitachi.jpg" alt="Our Recruiters"></li> -->
+                            <li><img src="resources/images/recruiters/tcs.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/hcl.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/bata.jpg" alt="Our Recruiters"></li>
+                            <li><img src="resources/images/recruiters/blinkit.jpg" alt="Our Recruiters"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slidersection">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<!-- <span class="shadowtext">Placements @ GIMS</span> -->
+						<h2 class="pagetitle">Placements @ GIMS</h2>
+					</div>
+					<div class="col-lg-12 mt-25">
+                        <div class="placementslider">
+                            <div>
+                                <div class="col-lg-12 placedstudiv">
+                                    <img src="img/sumedha-srivastava.jpg" alt="Sumedha Srivastava" class="" width="100%">
+                                    <div class="overlay-div"></div>
+                                    <a href="https://youtu.be/m5FRMBopDiU" target="_blank"><img src="img/video-icon.png" alt="" class="youtube-icon"></a>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-lg-12 placedstudiv">
+                                    <img src="img/mojahid-ahmed-siddiqui.jpg" alt="mojahid-ahmed-siddiqui" class="" width="100%">
+                                    <div class="overlay-div"></div>
+                                    <a href="https://youtu.be/ggXDGNUbfFw" target="_blank"><img src="img/video-icon.png" alt="" class="youtube-icon"></a>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-lg-12 placedstudiv">
+                                    <img src="img/priyanka-srivastava.jpg" alt="priyanka-srivastava" class="" width="100%">
+                                    <div class="overlay-div"></div>
+                                    <a href="https://youtu.be/KmmWSqaIz-4" target="_blank"><img src="img/video-icon.png" alt="" class="youtube-icon"></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="slidersection">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<!-- <span class="shadowtext">Placements @ GIMS</span> -->
+						<h2 class="pagetitle">GIMS Illuminates</h2>
+					</div>
+					<div class="col-lg-12 mt-25">
+                        <div class="gimsilluminates">
+                            <div>
+                                <div class="col-lg-12 placedstudiv">
+                                    <img src="img/ep1.jpg" alt="GIMS Illuminates" class="" width="100%">
+                                    <div class="overlay-div"></div>
+                                    <a href="https://youtu.be/sK5ndEiXySA" target="_blank"><img src="img/video-icon.png" alt="" class="youtube-icon"></a>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-lg-12 placedstudiv">
+                                    <img src="img/ep2.webp" alt="GIMS Illuminates" class="" width="100%">
+                                    <div class="overlay-div"></div>
+                                    <a href="https://youtu.be/t8EPXZu0tok" target="_blank"><img src="img/video-icon.png" alt="" class="youtube-icon"></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="eight-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="resources/images/logos/hlact.png" class="hlactlogo" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="hlacttext">
+                            <p class="hlat">GNIOT Institute of Management Studies (GIMS), Greater Noida is now <span>Accredited to Higher Learning Accreditation Consulting and Training (HLACT), UK. GIMS, Greater Noida.</span> Accreditation is an official acknowledgement of an organization’s competency at performing specific tasks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2022 All Rights Reserved. Designed & Developed By <a href="https://brandshow.in/" target="_blank">Brandshow</a></p>
+        </div>
+
+        
+      
+
+
+   
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <!-- <script src="_next/static/js/slick.min.js"></script> -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+        <!-- Global site tag (gtag.js) - Google Ads: 672229756 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-672229756"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-672229756'); </script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '877633433000291');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=877633433000291&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code --> 
+
+
+<!--No-paper form start-->
+<script type="text/javascript">
+var s=document.createElement("script");
+s.type="text/javascript";
+s.async=true;
+s.src="https://widgets.nopaperforms.com/emwgts.js";
+document.body.appendChild(s);
+</script>
+<!--No-paper form End-->
+
+<script>
+    $('.placementslider').slick({
+        infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  variableWidth: true, 
+  centerMode: true, 
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+});
+$('.placementslider .slick-slide').css('margin-right', '20px');
+</script>
+<script>
+    $('.gimsilluminates').slick({
+        infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+});
+$('.gimsilluminates .slick-slide').css('margin-right', '20px');
+</script>
+<script>
+const cookieBox = document.querySelector(".wrapperCookie"),
+  buttonsCookie = document.querySelectorAll(".buttonCookie");
+
+const executeCodes = () => {
+  //if cookie contains codinglab it will be returned and below of this code will not run
+  if (document.cookie.includes("codinglab")) return;
+  cookieBox.classList.add("showDiv");
+
+  buttonsCookie.forEach((button) => {
+    button.addEventListener("click", () => {
+      cookieBox.classList.remove("showDiv");
+
+      //if button has acceptBtn id
+      if (button.id == "acceptBtn") {
+        //set cookies for 1 month. 60 = 1 min, 60 = 1 hours, 24 = 1 day, 30 = 30 days
+        document.cookie = "cookieBy= codinglab; max-age=" + 60 * 60 * 24 * 30;
+      }
+    });
+  });
+};
+
+//executeCodes function will be called on webpage load
+window.addEventListener("load", executeCodes);
+
+ </script>
+    </body>
+</html>

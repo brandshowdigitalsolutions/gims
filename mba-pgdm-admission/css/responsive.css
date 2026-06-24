@@ -1,0 +1,134 @@
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .tagline {
+        width: 50%;
+    }
+}
+
+.phoneBanner{
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .fist-section {
+        /* background-image: url(../resources/images/home/main-phone.webp) !important; */
+        background: white !important;
+        background-size: cover;
+    } 
+    .tagline {
+        margin-top: 100px;
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+    }
+.logo {
+    width: 200px;
+}
+.secrow{
+    flex-direction: column-reverse;
+}
+.formdiv {
+    margin-top: 0;
+}
+.package-highlight h2 {
+    text-align: center;
+    display: inherit;
+}
+.package-highlight {
+    display: inline-grid;
+    text-align: center;
+    width: 100%;
+}
+
+.learning-out li {
+    margin: 0 0 0 39px;
+    /* color: white; */
+}
+.learning-out {
+    height: auto;
+}
+.pointdiv {
+    flex-wrap: wrap;
+}
+.pointlist {
+    margin-bottom: 30px;
+}
+.pointlist span {
+    margin-bottom: 10px;
+}
+.logo-div{
+    padding: 0 15px 15px 25px !important;
+}
+.menucontact a {
+    font-size: 12px;
+    margin-right: 5px;
+}
+.menucontact a img {
+    width: 15px;
+    margin-right: 5px;
+}
+.second-section {
+    background: #fff;
+    margin-top: -1px;
+}
+.titlewhiteres {
+    margin-left: 0 !important;
+    /* color: white; */
+}
+.pagetitle img {
+    background: white;
+    border-radius: 5px;
+}
+.leftside {
+    margin-bottom: 25px;
+}
+.titleres{
+    margin-left: 0 !important;
+}
+.edgediv {
+    margin: 15px;
+}
+.pdgphoneon8 {
+    padding-left: 15px !important;
+}
+.no-mb {
+    margin-bottom: 30px !important;
+}
+.hlat {
+    line-height: 30px;
+}
+.formtextdiv {
+    padding: 20px;
+}
+.phoneBanner{
+    display: block;
+}
+.DeskBanner{
+    display: none;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+    .last3div{
+        margin-bottom: 0;
+    }
+
+
+}
+@media only screen and (min-width: 1500px) {
+    .formdiv {
+        
+        margin-top: -600px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .formdiv {
+        margin-top: -300px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .formdiv {
+        margin-top: 0px;
+        box-shadow: none;
+    }
+}

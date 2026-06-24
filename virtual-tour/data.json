@@ -1,0 +1,7 @@
+{
+    "license":"Wm5KdmJuUXRkbWxsZDNKbFkyVndkR2x2Ym14bFkzUjFjbVV0YUdGc2JITmxiV2x1WVhJdGFHRnNiR0p2WVhKa2NtOXZiV0YxWkdsMGIzSnBkVzFzYjJKaWVXTnZiWEIxZEdWeWJHbGljbUZ5ZVE9PQ",
+    "logo":"https://i.imgur.com/RJZyDHn.png",
+    "logoURL":"https://www.gims.net.in/",
+    "scenes":[{"text":"Main Building","img":"front-view"},{"text":"Reception","img":"reception"},{"text":"Class room","img":"lecture-hall"},{"text":"Seminar Room","img":"seminar-hall"},{"text":"Board Room","img":"boardroom"},{"text":"Auditorium","img":"auditorium"},{"text":"Lobby","img":"lobby"},{"text":"Computer Lab","img":"computer"},{"text":"Library","img":"library"}]
+    
+}

@@ -1,0 +1,258 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>GIMS :: Virtual Tour</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
+
+    
+
+    <style>
+
+  body{overflow:hidden}.band{transition:1s cubic-bezier(0, 0, 0, .97);margin-left:-100%!important}li.litest{padding:4px 6px;color:#fff;font-weight:700;cursor:pointer}li a:active,li a:focus,li a:visited,li.litest:hover{text-decoration:none;font-weight:600;background:#fcc425;padding:4px 9px;transition:.5s cubic-bezier(0, 0, 0, 1.01);color:#00f!important;border-bottom-left-radius:7px;border-top-left-radius:7px;box-shadow:-4px 9px 10px 2px #00000029;border-left:2px solid #fff}li.litest:hover a{color:#fff;text-shadow:2px 0 4px #00000063;text-decoration:none;font-weight:600}ul{list-style:none;margin-left:0;padding-left:12px}li a{color:#fff}#wrapper{width:240px;background:linear-gradient(to bottom right,#004191,#1b65e2);height:100vh;margin-left:0;box-shadow:4px 0 8px 1px #0000001f;transition:1s cubic-bezier(0, 0, 0, .97);display:inline-block}.div-iframe{overflow:hidden;height:100vh;width:100vw;background:#000;display:inline-block}iframe{border:none;width:100%;height:100%;z-index:0}#main{width:calc(100vw + 250px);overflow:hidden;display:flex}#logoworld{padding:10px;width:91%;background:#fcc425;border-radius:15px;box-shadow:1px 1px 13px 3px #00000063}
+
+    </style>
+
+</head>
+
+<body>
+
+    
+
+    
+
+    <div id="popup" style="
+
+    position: fixed;
+
+    width: 100%;
+
+    z-index: 9999;
+
+    background: #00000038;
+
+    height: 100%;
+
+    backdrop-filter: blur(5px);
+
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+"><div style="
+
+    background: white;
+
+    width: 62%;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 12px 3px #00000045;
+
+"><img src="https://i.imgur.com/8OHu3tp.gif" style="
+
+    width: 40%;
+
+    min-width: 200px;
+
+">
+
+
+
+<br><button class="btn btn-success" style="
+
+    margin-bottom: 29px;
+
+" onclick="startTour()">Start</button></div></div>
+
+    <script>
+
+    var audio = new Audio("background.mp3");
+
+        function startTour(){
+
+            $("#popup")[0].style.display = "none";
+
+            audio.volume = 0.5;
+
+            audio.play();
+
+        }
+
+    </script>
+
+    
+
+    
+
+    
+
+    <div id="loader" style="/* display:none; */width: 100%;height: 100vh;background: white;z-index: 9999999;text-align: center;position:fixed; top:0px;left:0px">
+
+<img src="https://www.gims.net.in/img/gims-logo.png" style="
+
+    margin-top: 117px;
+
+    padding: 10px;
+
+    background: #fac426;
+
+    border-radius: 10px;
+
+    box-shadow: 3px 8px 7px 1px #8080801a;
+
+"><h3 style="
+
+    color: #a7a7a7;
+
+">Virtual Tour Loading...</h3>       
+
+<img src="https://i.pinimg.com/originals/be/ce/0c/bece0c797cb134aefb2cb836578c9249.gif" style="
+
+    width: 48%;
+
+"> 
+
+    </div>
+
+    
+
+    
+
+    <div style="display:none;width: 100%;height: 100vh;background: white;z-index: 999;">
+
+        
+
+    </div>
+
+    
+
+    
+
+    <div id="main">
+
+             <div id="wrapper" style="width:240px;background: background: linear-gradient(to bottom right,#004191, #3070dc);   height: 100vh;    margin-left: 0px;">
+
+                <div id="switcher" style="
+
+    background: white;
+
+    color: black;
+
+    position: absolute;
+
+    top: 50%;
+
+    right: 102px;
+
+    z-index: 9;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 12px 5px #00000057;
+
+    display: none;
+
+" onclick="togglesideBar()">Switch Menu &ensp;<i class="fa fa-bars" style="
+
+    color: black;
+
+"></i></div>
+
+                           
+
+                            <!-- Sidebar -->
+
+                            <div id="sidebar-wrapper" style="margin-top:200px;">
+
+                                <ul class="sidebar-nav" style="margin-left:0;" id="accordion">
+
+                                 
+
+        
+
+                                </ul>
+
+                            </div>
+
+                  
+
+            </div>
+
+            <div class="div-iframe">
+
+              <!--onclick="$(&quot;#main&quot;).toggleClass(&quot;band&quot;)" -->
+
+              
+
+              
+
+                <div id="panorama"></div>
+
+            </div>
+
+    </div>
+
+    
+
+    
+
+    
+
+    <link rel="stylesheet" href="gyro.css"/>
+
+    <script type="text/javascript" src="tour.js"></script>
+
+    <script>
+
+        if (window.visualViewport.width < window.visualViewport.height) {
+
+    document.body.style = "overflow-x:scroll";
+
+    $("#switcher")[0].style.display = "initial";
+
+}
+
+
+
+var direction = 1;
+
+function togglesideBar(){
+
+    window.scrollBy(2000 * direction, 0);
+
+    direction = direction * (-1);
+
+}
+
+
+
+    </script>
+
+    </body>
+
+</html>
+

@@ -1,0 +1,347 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+@media only screen and (min-width: 35em) {
+   
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+}
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+	
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+	
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.form-section1 {
+	width:30%;
+	top:0;
+	position: fixed;
+	z-index: 1000;
+	right: 20px;
+}
+
+
+.form-div-block {
+    height: 100vh;
+    float: left;
+    margin: 0;
+    background: #364c88;
+    float: right;
+    -pie-box-shadow: 0 0 10px -1px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 10px -1px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 10px -1px rgba(0,0,0,.5);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.5);
+    border-color: #000;
+	padding-top: 50px;
+}
+
+.form-div-block h2 {
+	font-size: 21px;
+    text-align: center;
+    color: #ffb70a;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    font-family: Georgia;
+    font-weight: 100;
+	margin-bottom: 10px;
+    margin-top: 2%;
+}
+
+.form-div-block p {
+	    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 100;
+    
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+
+.form-div-block form {
+	width: 100%;
+	float: left;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+
+.input {
+	    width: 96%;
+    height: 30px;
+    border: none;
+    padding: 0 2%;
+    margin-bottom: 7px;
+    background: #FDFBFB;
+    color: #777676;
+    font-family: arial;
+	font-size: 13px;
+	letter-spacing: 1px;
+    outline: none;
+    resize: none;
+    border-radius: 4px;
+}
+
+.textarea {
+	
+	    width: 96%;
+    height: 20px;
+    padding: 5px 2%;
+    border: none;
+   
+    color: #777676;
+    font-family: arial;
+	font-size: 13px;
+    border-radius: 4px;
+    resize: none;
+outline:none;
+}
+
+
+.selectt {
+	position: relative;
+}
+
+.select {
+	float: right;
+	width: 100%;
+	height: 30px;
+	border: none;
+	background: none;
+	padding: 0 2%;
+	background: #FDFBFB;
+	outline: none;
+	color: #777676;
+    font-family: arial;
+	font-size: 13px;
+	letter-spacing: 1px;
+	-webkit-appearance: none;
+	 border-radius: 4px !important;
+	-webkit-border-radius: 0px;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	margin-bottom: 7px;
+}
+
+.plain-select:after {
+	content: "";
+	 position: absolute;
+	 z-index: 2;
+	 right: 8px; 
+	 top: 50%;
+	 margin-top: 16px;
+	 height: 0;
+	 width: 0;
+	 border-top: 4px solid #777776;
+	 border-left: 4px solid transparent;
+	 border-right: 4px solid transparent;
+	 pointer-events: none;
+}
+
+
+.submit {
+	width:100%;
+	height: 35px;
+	display: block;
+	float: none;
+	margin: 7px auto;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+    font-family: 'open_sansregular';
+    font-size: 13px;
+	outline: none;
+	resize: none;
+	border-radius: 4px !important;
+	-webkit-border-radius: 0px 0px 2px 2px;
+	-moz-border-radius: 0px 0px 2px 2px;-o-border-radius: 0px 0px 2px 2px; cursor: pointer;}
+
+
+.submit:hover{background:#ffb70a;}
+.new-pos{
+	position: absolute !important;
+    z-index: 999;
+    top: -110px;
+}
+.nivo-directionNav{display:none;}
+.main-h1{
+	font-size: 20px !important;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fdc800;
+    color: #000;
+    padding: 7px 20px;
+    font-weight: 800;
+	margin-bottom:2px !important;
+	}
+.new-d-ftp{
+	font-size: 28px !important;
+    margin-top: 12px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    color: #fdc800 !important;
+	margin:0px !important;
+}
+.new-d-ftspan{
+	font-size: 20px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    color: #fff !important;
+}
+.tt-nw{font-weight: 800 !important;
+    padding-left: 0 !important;}

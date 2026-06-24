@@ -1,0 +1,392 @@
+<?php 
+
+include('admin/dbc.php');
+include('admin/function.php');
+
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fee Structure | Top PGDM Institute | GIMS</title>
+	<meta name="description" content="Fee Structure - GNIOT Institute of Management Studies One of The Best PGDM Campus and Top College for PGDM provides Best PGDM private Colleges in Delhi, India."/>
+	<meta name="keywords" content="Best PGDM College in Delhi NCR, GNIOT Institute of Management Studies,  Top PGDM Colleges in Greater Noida, Top PGDM Colleges in UPTU, Best Management Colleges in India, UPSEE Best PGDM colleges ,Top  GBTU Institutes,Top Management institute"/>
+	<Meta name="Robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fevicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/fevicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/fevicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/fevicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/fevicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/fevicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/fevicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/fevicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/fevicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/fevicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/fevicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/fevicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/fevicon/favicon-16x16.png">
+	<link rel="manifest" href="img/fevicon//manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" type="image/x-icon" href="img/fevicon/favicon.ico" />
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fullpage/fullpage.css">
+    <link rel="stylesheet" href="vendors/elagent-icon/style.css">
+    <link rel="stylesheet" href="vendors/animation/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<?php include "header.php"; ?>
+
+
+	<style>
+		.gmail-xl74{
+			text-align: left !important;
+		}
+		.pgdmtext2{
+			font-size:14px;
+		}
+		.new-font {
+    background: none !important;
+}
+.tablegims tr td:first-child {
+    text-align: left;
+    padding-left: 10px;
+}
+ul.awards2 li {
+    font-size: 14px;
+}
+	</style>
+</head>
+<body class="home_four">
+	<?php include "top-menu.php"; ?>
+	
+    <div id="wavescroll">
+		
+		<section class="section wave_two_section_two">
+            <div id="particles-js" class="p_absoulte"></div>
+            <img class="t_two p_absoulte" src="img/home_one/triangle_shap_two.png" alt="">
+            <img class="t_shap p_absoulte" src="img/home_three/shap.png" alt="">
+            <img class="b_shap p_absoulte" src="img/home_three/shap_two.png" alt="">
+            <img class="dot_one p_absoulte" src="img/home_three/dot.png" alt="">
+            <img class="dot_two p_absoulte" src="img/home_three/dot-1.png" alt="">
+            <div class="text" style="font-size:34px;">Fee Structure</div>
+            <div class="s_round r_one p_absoulte"></div>
+            <div class="s_round r_two p_absoulte"></div>
+            <div class="s_round r_three p_absoulte"></div>
+            <div class="s_round r_four p_absoulte"></div>
+            <div class="s_round r_five p_absoulte"></div>
+            <div class="s_round r_six p_absoulte"></div>
+            <div class="s_round r_seven p_absoulte"></div>
+            <div class="s_round r_eight p_absoulte"></div>
+            <div class="s_round r_nine p_absoulte"></div>
+            <div class="s_round r_ten p_absoulte"></div>
+            <div class="s_round r_eleven p_absoulte"></div>
+            <div class="intro">
+                <div class="container custom_container">
+                    <div class="row align-items-center new-pd4 zoomanimate">
+						<div class="col-lg-12">
+							<ul class="breadcrumb">
+							  <li><a href="#">Home</a></li>
+							  <li><a href="#">Admission</a></li>
+							  <li>Fee Structure</li>
+							</ul>
+						</div>
+						<div class="col-lg-12">
+							<h1 class="page-t">Fee Structure</h1>
+							<h3 class="sub-t">Best PGDM Institute - Greater Noida</h3>
+						</div>
+                        <div class="col-md-12 no-padding">
+							<div class="row">
+								<div class="col-lg-9">
+									<div class="col-lg-12 new-pd9 awardbg2">
+										<h2 class="new-font titlenews black-color"><i class="icon-line2-graduation"></i> PGDM (2023-25 Batch)</h2>
+										<table class="tablegims">
+											<thead>
+												<tr>
+													<th>Course</th>
+													<th>Registration</th>
+													<th colspan="2">First Year</th>
+													<th colspan="2">Second Year</th>
+													<th colspan="2">Total Fees</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>PGDM</td>
+													<td>Rs. 50,000/-</td>
+													<td>Rs. 2,12,500/-</td>
+													<td>Rs. 1,02,000/-</td>
+													<td>Rs. 1,20,000/-</td>
+													<td>Rs. 1,36,500/-</td>
+													<td>Rs. 6,21,000/-</td>
+												</tr>
+												<tr>
+													<td>Fee Installments</td>
+													<td>At the time of the admission </td>
+													<td>Before commencement of the programme</td>
+													<td>Latest by 1st November 2023</td>
+													<td>Latest by 30th March 2024</td>
+													<td>Latest by 31th August 2024</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td colspan="7">Note : Fine is liable beyond due date.</td>
+												</tr>
+											</tbody>
+										</table>
+										<br/>
+										<h2 class="new-font titlenews black-color"><i class="fa fa-rupee" style="padding: 9px 14px;"></i> HOSTEL FEES</h2>
+										<table class="tablegims">
+											<tbody>
+												<tr>
+					        					    <th rowspan="2" style="padding: 5px 7px;">Sl.</th>
+					        					    <th rowspan="2">Particular</th>
+					        					    <th colspan="2">THREE SEATER (BALCONY)</th>
+					        					    <th colspan="2">TWO SEATER</th>
+					        					</tr>
+					        					<tr>
+					        					    
+					        					    <td class="gmail-xl74">COOLER</td>
+					        					    <td class="gmail-xl74">A.C </td>
+					        					    <td class="gmail-xl75">COOLER</td>
+					        					    <td class="gmail-xl74">A.C </td>
+					        					</tr>
+					        					<tr>
+					        					    <td class="gmail-xl79" height="40">1</td>
+					        					    <td class="gmail-xl80">Registration Fee </td>
+					        					    <td class="gmail-xl81">9,000</td>
+					        					    <td class="gmail-xl81">9,000</td>
+					        					    <td class="gmail-xl81">9,000</td>
+					        					    <td class="gmail-xl81">9,000</td>
+					        					</tr>
+					        					<tr>
+					        					    <td class="gmail-xl82" height="40">2</td>
+					        					    <td class="gmail-xl83">Hostel Fee (Fooding &amp; Lodging)</td>
+					        					    <td class="gmail-xl84">1,13,000</td>
+					        					    <td class="gmail-xl84">1,50,000</td>
+					        					    <td class="gmail-xl84">1,23,000</td>
+					        					    <td class="gmail-xl84">1,58,000</td>
+					        					</tr>
+					        					<tr>
+					        					    <td class="gmail-xl86" width="22" height="52">3</td>
+					        					    <td class="gmail-xl87" width="236">Security Deposit (One Time &amp; Refundable)</td>
+					        					    <td class="gmail-xl88" width="104">10,000</td>
+					        					    <td class="gmail-xl88" width="102">10,000</td>
+					        					    <td class="gmail-xl88" width="109">10,000</td>
+					        					    <td class="gmail-xl88" width="86">10,000</td>
+					        					</tr>
+					        					<tr>
+					        					    <td class="gmail-xl89" style="text-align: center;" colspan="2" height="40">TOTAL</td>
+					        					    <td class="gmail-xl91">1,32,000</td>
+					        					    <td class="gmail-xl91">1,69,000</td>
+					        					    <td class="gmail-xl91">1,42,000</td>
+					        					    <td class="gmail-xl91">1,77,000</td>
+					        					</tr>
+											</tbody>
+										</table>
+										<br>
+										<h2 class="new-font titlenews black-color"><i class="fa fa-rupee" style="padding: 9px 14px;"></i> BUS FEES (OPTIONAL) - ON FIRST-CUM-FIRST-SERVE BASIS</h2>
+										<table class="tablegims">
+											<tbody>
+												<tr>
+													<th>Serial Number</th>
+													<th>Pick - Up Point</th>
+													<th>Per Year Fee (NON A.C)</th>
+												</tr>
+												<tr>
+													<td rowspan="3">1</td>
+													<td>Mohan Nagar, Vasunrda, Sahibad,dabur, Vaishali, Anand Vihar</td>
+													<td>36,000.00</td>
+												</tr>
+												<tr>
+													<td>UP Gate, Indrapuram, Khora Colony</td>
+													<td>33,000.00</td>
+												</tr>
+												<tr>
+													<td>Noida Sec.-57, NTPC, Noida City Centre, Noida Sec. -37</td>
+													<td>29,000.00</td>
+												</tr>
+												<tr>
+													<td rowspan="2">2</td>
+													<td>Labour Chowk</td>
+													<td>33,000.00</td>
+												</tr>
+												<tr>
+													<td>Noida Sector-57, Noida-Rajat Vihar, Indian Oil (Sec-55), Sector 55-56 Andhra Bank, Sector-11, 08, 06, Gol Chakkar, Film City</td>
+													<td>29,000.00</td>
+												</tr>
+												<tr>
+													<td rowspan="2">3</td>
+													<td>Shipra Mall, Sector-62, Bharat Petroleum, Fortis Hospital, Mamura Chowk, Sec-71</td>
+													<td>33,000.00</td>
+												</tr>
+												<tr>
+													<td class="gmail-xl70" width="473" height="44">Sec-52 Gate, Hoshiarpur, Sec-36, Shashi Chowk, Barola, Keshar Garden, Salarpur, Sec- 93</td>
+													<td>29,000.00</td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td>Noida Sec-55, Shiv Mandir, Sec-12/22, Chowra Morh, Sec-21, 19, Rajnigandha Chowk, Atta Peer</td>
+													<td>29,000.00</td>
+												</tr>
+												<tr>
+													<td class="gmail-xl69">5</td>
+													<td>Dilshad Garden, Shahdra, Shyam Lal College, Krishna Nagar, Preet Vihar, Laxmi Nagar, Akshardham Mandir, Mother Dairy, Noida Entry Point,</td>
+													<td>36,000.00</td>
+												</tr>
+												<tr>
+													<td class="gmail-xl69">6</td>
+													<td>Noida Morh, Mayur Vihar PH-1, Samachar Apptt. Noida Entry Point</td>
+													<td>33,000.00</td>
+												</tr>
+												<tr>
+													<td rowspan="3">7</td>
+													<td>AIIMS Hospital, South Extension, Moolchand Flyover, Greater Kailash, Nehru Place, Modi Mill, CRRI</td>
+													<td>36,000.00</td>
+												</tr>
+												<tr>
+													<td class="gmail-xl70">Apollo Hospital, Sarita Vihar, Kalindi Kunj</td>
+													<td>33,000.00</td>
+												</tr>
+												<tr>
+													<td class="gmail-xl70">Sector-37</td>
+													<td>29,000.00</td>
+												</tr>
+
+												<tr>
+													<td rowspan="3">8</td>
+													<td>Old Bus Stand, Hapur Chungi, Shastri Nagar </td>
+													<td>36,000.00</td>
+												</tr>
+												<tr>
+													<td>ABS, Lal Kuva, Taj Highway, Vijay Nagar</td>
+													<td>29,000.00</td>
+												</tr>
+												<tr>
+													<td>Gaur City, Char Murti, Bisrak Village ACE City, Yahama, Surajpur</td>
+													<td>26,000.00</td>
+												</tr>
+
+												<tr>
+													<td rowspan="2">9</td>
+													<td> Khan Pur Lal Batti, Jamia Hamdard, Batra Hospital, Sangam Vihar, Lal Kuwa, Prahlad Pur , Tuglakabad Metro, Mohan Estate</td>
+													<td>36,000.00</td>
+												</tr>
+												<tr>
+													<td>Sarita Vihar Metro, Appolo Hospital, Saheen Bagh, Kalindi Kunj, 8 Lal Batt, Okhla Centuary</td>
+													<td>33,000.00</td>
+												</tr>
+
+												<tr>
+													<td rowspan="3">10</td>
+													<td>Bulandshahr, Bhoor Chauraha, Dharam Katna Chandru, Shikindrabad Bypass, Shikindrabad</td>
+													<td>36,000.00</td>
+												</tr>
+												<tr>
+													<td>Luharali Toll Chatara dadri Adda, Dadri Railway Station</td>
+													<td>33,000.00</td>
+												</tr>
+												<tr>
+													<td>Tilapta Gol Chakkar, Paramount Golf-foreste, Zeta 2 Jaitpur Gol Chakkar</td>
+													<td>23,000.00</td>
+												</tr>
+												<tr>
+													<td>11</td>
+													<td>Faridabad, Neelam Chowk, Sector-28, Crown Mall, Badarpur Border, Tughlakabad</td>
+													<td>38,000.00</td>
+												</tr>
+
+
+
+											</tbody>
+										</table>
+										<br>
+										<p class="pgdmtext2">
+											The fee can be deposited by Demand Draft in favour of "GNIOT Institute of Management Studies" payable at Greater Noida / Noida/ Delhi" by Net Banking as per following details :
+											<br/>
+											<br/>
+										</p>
+										<table class="tablegims">
+											<thead>
+												<tr>
+													<th>Details of the Bank Account</th>
+													<th>GIMS</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Name of Account </td>
+													<td>GNIOT Institute of Management Studies</td>
+												</tr>
+												<tr>
+													<td>Bank Name</td>
+													<td>Bank Name</td>
+												</tr>
+												<tr>
+													<td>Account Number </td>
+													<td>88951010004569</td>
+												</tr>
+												
+												<tr>
+													<td>IFSC Code </td>
+													<td>CNRB0018885</td>
+												</tr>
+												<tr>
+													<td>Branch </td>
+													<td>SPCLD MID CORP BR NOIDA SECT 18</td>
+												</tr>
+												<tr>
+													<td colspan="2">In case the fee is deposited through net banking, the student should send the details like name of candidate, father's name, course applied, batch, student's email ID, date of transaction, amount transferred and NEFT/RTGS/IMPS No at admission@gims.net.in.</td>
+												</tr>
+											</tbody>
+										</table>
+										<br/>
+										<ul class="awards2 new-font black-colorli">
+											<li>The security deposit of 10,000/- is to be paid at the time of admission and is refundable on completion of the programme/convocation or on termination/withdrawal of admission after submission of No-Dues certificate.</li>
+											<li>An amount of 1,32,000 to 1,67,000/- (depending upon the type of accommodation opted) is payable against Hostel and Mess Charges at the time of joining the hostel and is non refundable.</li>
+											<li>The Hostel Security Deposit of 10,000/- is also to be paid at the time of admission and is refundable. No adjustment shall be made for the leave, holiday, student being absent from the institute/hostel or pre mature withdrawal from hostel.</li>
+											<li>Hostel is optional for the students and is subject to availability of accommodation.</li>
+											<li>Supporting documents required for the education loan will be provided by the institute only.</li>
+											<li>Complimentary Laptop & Foreign Immersion Tour will be provided to all the students.</li>
+											<!--<li>Complimentary Foreign Tour/Internship shall be provided to all students.</li>-->
+										</ul>
+										<p class="pgdmtext2	">
+											<span style="font-size:14px;">Any dispute will be subject to the jurisdiction of Gautam Buddha Nagar District only.</span><br/>
+											For details please contact the Admission Department: 8860606606/63 or write to admission@gims.net.in
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 sidebar" id="sidebar">
+									<?php include "about-sidebar.php"; ?>
+								</div>
+							</div>
+						</div>
+						
+                    </div>
+                </div>
+            </div>
+        </section>		
+		<?php include "footer.php"; ?>
+    </div>
+
+    <?php include "footer-bottom.php"; ?>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/js/popper.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/fullpage/scroll-overflow.js"></script>
+    <script src="vendors/fullpage/fullpage.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+	<?php include "scripts.php"; ?>
+</body>
+</html>

@@ -1,0 +1,834 @@
+<?php
+
+include('admin/dbc.php');
+
+include('admin/function.php');
+
+?>
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Faculty | Top Management Colleges in Greater Noida</title>
+    <meta name="description" content="Faculty - GNIOT Institute of Management Studies One of The Best PGDM Campus and Top College for PGDM provides Best PGDM private Colleges in Delhi, India." />
+
+    <meta name="keywords" content="Best PGDM College in Delhi NCR, GNIOT Institute of Management Studies,  Top PGDM Colleges in Greater Noida, Top PGDM Colleges in UPTU, Best Management Colleges in India, UPSEE Best PGDM colleges ,Top  GBTU Institutes,Top Management institute" />
+
+
+
+
+
+    <meta name="author" content="BrandShow">
+
+    <meta name="Robots" content="index, follow" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="copyright" content="Copyright © GNIOT Institute of Management Studies. All Rights Reserved." />
+
+    <!-- Favicon -->
+
+
+
+    <link rel="alternate" href="https://www.gims.net.in/faculty.php" hreflang="es-us" />
+
+    <link rel="canonical" href="https://www.gims.net.in/faculty.php">
+
+
+
+    <!-- Search Engine -->
+
+    <meta name="image" content="https://www.gims.net.in/img/gims-logo.jpg">
+
+
+
+    <!-- Facebook Open Graph -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Faculty | Top Management Colleges in Greater Noida">
+
+    <meta property="og:description" content="Faculty - GNIOT Institute of Management Studies One of The Best PGDM Campus and Top College for PGDM provides Best PGDM private Colleges in Delhi, India.">
+
+    <meta property="og:url" content="https://www.gims.net.in/faculty.php">
+
+    <meta property="fb:app_id" content="573928583391257">
+
+
+
+
+
+    <meta name="twitter:card" content="summary">
+
+    <meta name="twitter:site" content="@GNIOTCollege">
+
+    <meta name="twitter:title" content="Faculty | Top Management Colleges in Greater Noida">
+
+    <meta name="twitter:description" content="Faculty - GNIOT Institute of Management Studies One of The Best PGDM Campus and Top College for PGDM provides Best PGDM private Colleges in Delhi, India.">
+
+
+
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+
+    <meta name="og:title" content="Faculty | Top Management Colleges in Greater Noida" />
+
+    <meta name="og:url" content="https://www.gims.net.in/faculty.php">
+
+    <meta name="og:site_name" content="GNIOT Institute of Management Studies">
+
+    <meta name="fb:admins" content="573928583391257">
+
+    <meta name="og:type" content="website">
+
+
+
+    <!-- Geotag Start -->
+
+    <meta name="DC.title" content="GNIOT Institute of Management Studies" />
+
+    <meta name="geo.region" content="IN-UP" />
+
+    <meta name="geo.placename" content="Greater Noida" />
+
+    <meta name="geo.position" content="28.461182;77.495203" />
+
+    <meta name="ICBM" content="28.461182, 77.495203" />
+
+    <!-- Geotag End -->
+
+
+
+    <script type="application/ld+json">
+        {
+
+            "@context": "https://schema.org",
+
+            "@type": "Blog",
+
+            "url": "https://gims.net.in/blog/"
+
+        }
+    </script>
+
+    <script type="application/ld+json">
+        {
+
+            "@context": "https://schema.org",
+
+            "@type": "CollegeOrUniversity",
+
+            "name": "GNIOT Institute of Management Studies",
+
+            "url": "https://www.gims.net.in/faculty.php",
+
+            "sameAs": [
+
+                "https://www.facebook.com/gims.net.in",
+
+                "https://twitter.com/gims_net_in",
+
+                "https://www.instagram.com/gims.net.in/",
+
+                "https://www.linkedin.com/company/gniot-institute-of-management-studies-pgdm-institute-gims/",
+
+                "https://www.youtube.com/channel/UCgakka57xq5deagDmuc6YpQ/videos?view=0&shelf_id=3&sort=dd",
+
+                "https://www.gims.net.in"
+
+            ]
+
+        }
+    </script>
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fevicon/apple-icon-57x57.png">
+
+    <link rel="apple-touch-icon" sizes="60x60" href="img/fevicon/apple-icon-60x60.png">
+
+    <link rel="apple-touch-icon" sizes="72x72" href="img/fevicon/apple-icon-72x72.png">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="img/fevicon/apple-icon-76x76.png">
+
+    <link rel="apple-touch-icon" sizes="114x114" href="img/fevicon/apple-icon-114x114.png">
+
+    <link rel="apple-touch-icon" sizes="120x120" href="img/fevicon/apple-icon-120x120.png">
+
+    <link rel="apple-touch-icon" sizes="144x144" href="img/fevicon/apple-icon-144x144.png">
+
+    <link rel="apple-touch-icon" sizes="152x152" href="img/fevicon/apple-icon-152x152.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fevicon/apple-icon-180x180.png">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="img/fevicon/android-icon-192x192.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fevicon/favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="96x96" href="img/fevicon/favicon-96x96.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fevicon/favicon-16x16.png">
+
+    <link rel="manifest" href="img/fevicon//manifest.json">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/fevicon/favicon.ico" />
+
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="vendors/fullpage/fullpage.css">
+
+    <link rel="stylesheet" href="vendors/elagent-icon/style.css">
+
+    <link rel="stylesheet" href="vendors/animation/animate.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+
+    <link rel="stylesheet" href="popup/lightbox.css">
+
+    <?php
+    include "header.php"; ?>
+    <style>
+        h2.new-font.titlenews.black-color i {
+            background-color: #023e96;
+        }
+
+        .placestudiv {
+            background-color: #023e96;
+            box-shadow: none;
+        }
+
+        p.stuname {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        .designation span {
+            background-color: #ffffff;
+            font-weight: 400;
+            font-size: 14px;
+            color: #323232;
+        }
+
+        .designation {
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .bsnewfacbtn {
+            background: none;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 300;
+            padding: 1px 10px;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .bsnewfacbtn:hover {
+            color: #fff;
+        }
+
+        .placestudiv {
+            background-color: #023e96;
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+            min-height: 300px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .professorpic {
+            border: 1px dashed white;
+        }
+
+        .faclistdegtitlte {
+            font-size: 20px;
+            font-weight: 700;
+            color: #023e96;
+        }
+
+        .fcard-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #323232;
+            padding: 0;
+        }
+
+        .fcard-deg {
+            font-size: 16px;
+            padding: 0;
+        }
+
+        .catfacdiv {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid black;
+        }
+
+        .faclistdegtitlte {
+            font-size: 20px;
+            font-weight: 700;
+            color: #023e96;
+            margin-bottom: 15px;
+        }
+
+        .fcard {
+            margin-bottom: 15px;
+        }
+
+        @media (max-width:500px) {
+            .facmainlist {
+                padding: 25px;
+            }
+        }
+
+        .fcard-title span {
+            display: block;
+        }
+
+        .fcard-body p {
+            text-align: center;
+        }
+
+        .catfacdiv {
+            margin-left: 18px;
+        }
+        .facmainlist {
+    background: #fac426;
+    padding: 50px;
+}
+    </style>
+
+</head>
+
+<body class="home_four">
+
+    <?php
+    include "top-menu.php";
+    ?>
+
+
+
+    <div id="wavescroll">
+
+
+
+        <section class="section wave_two_section_two">
+            <div id="particles-js" class="p_absoulte"></div>
+            <img class="t_two p_absoulte" src="img/home_one/triangle_shap_two.png" alt="">
+            <img class="t_shap p_absoulte" src="img/home_three/shap.png" alt="">
+            <img class="b_shap p_absoulte" src="img/home_three/shap_two.png" alt="">
+            <img class="dot_one p_absoulte" src="img/home_three/dot.png" alt="">
+            <img class="dot_two p_absoulte" src="img/home_three/dot-1.png" alt="">
+            <div class="text" style="font-size:34px;">Faculty - GIMS</div>
+            <div class="s_round r_one p_absoulte"></div>
+            <div class="s_round r_two p_absoulte"></div>
+            <div class="s_round r_three p_absoulte"></div>
+            <div class="s_round r_four p_absoulte"></div>
+            <div class="s_round r_five p_absoulte"></div>
+            <div class="s_round r_six p_absoulte"></div>
+            <div class="s_round r_seven p_absoulte"></div>
+            <div class="s_round r_eight p_absoulte"></div>
+            <div class="s_round r_nine p_absoulte"></div>
+            <div class="s_round r_ten p_absoulte"></div>
+            <div class="s_round r_eleven p_absoulte"></div>
+            <div class="intro">
+                <div class="container custom_container">
+                    <div class="row align-items-center new-pd4 zoomanimate">
+                        <div class="col-lg-12">
+                            <ul class="breadcrumb">
+                                <li><a href="#">Home</a></li>
+                                <li>Academics</li>
+                                <li>faculty</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-12">
+                            <h1 class="page-t">Faculty</h1>
+                            <h3 class="sub-t">Faculty - GIMS</h3>
+                        </div>
+                        <div class="col-md-12 no-padding">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="facmainlist">
+                                        <div class="catfacdiv">
+                                            <h3 class="faclistdegtitlte">Marketing </h3>
+                                            <div class="row row-border">
+                                                <div class="col-md-2 col-6">
+                                                    <a href="https://www.gims.net.in/dr-nishant.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/new/nishant-kr-singh.webp" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Nishant <span> Kr. Singh</span></p>
+                                                                <p class="fcard-deg">Associate Professor/Dean Examination</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="mudit-tomar.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/new/mudit-tomar.webp" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Mudit <span>Tomar</span></p>
+                                                                <p class="fcard-deg">Dean OEC, Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="anshika-raghuvanshi.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/dr-anshika-raghuvanshi.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Anshika <span>Rajvanshi</span></p>
+                                                                <p class="fcard-deg">Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="silki-gaur.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/silki-gaur-gims.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Silky <span>Gaur</span></p>
+                                                                <p class="fcard-deg">Assistant Professor </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prachi-pachaury.php?v=1">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/new/prachi-pachaury.webp" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Prachi <span>Pachaury</span></p>
+                                                                <p class="fcard-deg">Assistant Professor </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="catfacdiv">
+                                            <h3 class="faclistdegtitlte">Finance and Economics</h3>
+                                            <div class="row row-border">
+                                                <div class="col-md-2 col-6">
+                                                    <a href="dr-satish-kumar-matta.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/satish-kumar-matta.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Satish <span>Kumar Matta</span></p>
+                                                                <p class="fcard-deg">Adjunct Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="dr-mohammed-rashid.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/mohammed-rashid.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Mohammed <span>Rashid</span></p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="khina-maya.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/khina-maya-rimal.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Khina <span>Maya Rimal</span></p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="dr-navita-gurbani.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/navita-gurbani.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Navita<span>Gurbani</span></p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                <a href="dr-anshul-agrawal.php">
+                                                    <div class="fcard">
+                                                        <img src="img/faculty/dr-anshul.jpg" class="fcard-img-top" alt="Anshul Agrawal"  />
+                                                        <div class="fcard-body">
+                                                            <p class="fcard-title">Anshul Agrawal</p>
+                                                            <p class="fcard-deg">Assistant Professor</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="catfacdiv">
+                                            <h3 class="faclistdegtitlte">Operations, Statistics and Business Analytics</h3>
+                                            <div class="row row-border">
+                                                <div class="col-md-2 col-6">
+                                                    <a href="bhupendra-kumar.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/bhupendra.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Bhupender<span>Kr. Som</span></p>
+                                                                <p class="fcard-deg">Professor/ Director</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="imad-ali.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/imad-ali.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Imad <span>Ali</span></p>
+                                                                <p class="fcard-deg">Professor </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="pooja-kapoor.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/pooja-kapoor.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Pooja A. Kapoor</p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-meenakshi-chandgothia.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/prof-meenkashi.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Meenakshi Chandgothia</p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="catfacdiv">
+                                            <h3 class="faclistdegtitlte">HR, OB and Entrepreneurship</h3>
+                                            <div class="row row-border">
+                                                <div class="col-md-2 col-6">
+                                                    <a href="ruchi-rayat.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/ruchi-rayat-gniotims.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Ruchi Rayat</p>
+                                                                <p class="fcard-deg">Professor/Deputy Director</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="dr-yamini-pandey.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/dr-yamini-pandey.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Yamini Pandey</p>
+                                                                <p class="fcard-deg">Professor / Dean- Academics</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="dr-meghna.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/new/dr-meghna.webp" class="fcard-img-top" alt="Dr. Meghna Singh" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Meghna Singh</p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-atul-kumar-singh.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/atul-kumar-singh.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Atul <span>Kumar Singh</span></p>
+                                                                <p class="fcard-deg">Professor of Practice</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-vibhanshu.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/prof-vibhanshu.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Vibhanshu</p>
+                                                                <p class="fcard-deg">Assistant Professor </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-charul-sharma.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/prof-charul.jpg" class="fcard-img-top" alt="Prof. Charul Sharma" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Charul Sharma</p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-dr-neetu-bali-kamra.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/new/prof-dr-neetu-bali-kamra.png" class="fcard-img-top" alt="Prof. Dr Neetu Bali Kamra" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Dr Neetu Bali Kamra</p>
+                                                                <p class="fcard-deg">Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="catfacdiv">
+                                            <h3 class="faclistdegtitlte">Business Communication and Foreign Language</h3>
+                                            <div class="row row-border">
+                                                <div class="col-md-2 col-6">
+                                                    <a href="shalini-sharma.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/shalini-gims.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Shalini <span>Sharma</span></p>
+                                                                <p class="fcard-deg">Professor/Dean OSW/Area chair</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-ranu-saxena.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/new/ranu-saxena.webp" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Ranu <span>Saxena</span></p>
+                                                                <p class="fcard-deg">Assistant Professor </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-honey-qaisar.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/new/honey-qaisar.webp" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Honey <span>Qaisar</span> </p>
+                                                                <p class="fcard-deg">Assistant Professor </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="prof-manisha-yadav.php">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/prof-manisha-yadav.jpg" class="fcard-img-top" alt="fcard Image 1" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Manisha <span>Yadav</span></p>
+                                                                <p class="fcard-deg">Assistant Professor</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="catfacdiv">
+                                            <h3 class="faclistdegtitlte">Visiting Faculty</h3>
+                                            <div class="row row-border">
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/sushil-pasricha.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Sushil <span>Pasricha</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>Operations, Statistics and Business Analytics</p>
+                                                                <p class="fcard-deg"><b>Education:</b>MBA, B. Tech </p>
+                                                                <p class="fcard-deg"><b>Total Exp.</b>42 Years</p>
+
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/vinod-jangid.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Vinod  <span>Jangid</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>Marketing</p>
+                                                                <p class="fcard-deg"><b>Education:</b>PhD, MBA, M.Sc., B.Sc.</p>
+                                                                <p class="fcard-deg"><b>Total Exp.</b>25 Years</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/birendra-prasad.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. (Dr.) Birendra  <span>Prasad</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>Finance & Economics</p>
+                                                                <p class="fcard-deg"><b>Education:</b>PhD, MBA, B.Sc.</p>
+                                                                <p class="fcard-deg"><b>Total Exp.</b>26+ Years</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/manisha-seth.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Manisha  <span>Seth</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>Operations, Statistics and Business Analytics</p>
+                                                                <p class="fcard-deg"><b>Education:</b>PhD, MBA, B. Tech</p>
+                                                                <p class="fcard-deg"><b>Total Exp.</b>22 Years</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/ompal-singh.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Ompal  <span>Singh</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>Operations, Statistics and Business Analytics</p>
+                                                                <p class="fcard-deg"><b>Education:</b>MBA, MCA, BCA</p>
+                                                                <p class="fcard-deg"><b>Total Exp.</b>18+ Years</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/ajay-chaturvedi.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Ajay <span>Chaturvedi</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>Finance & Economics</p>
+                                                                <p class="fcard-deg"><b>Education:</b>CA Intermediate, B.com</p>
+                                                                <p class="fcard-deg"><b>Total Exp.</b>30 Years</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/vijeta-singh.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Prof. Vijeta <span>Singh</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>CORP. LAW & BUSINESS LAW</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <a href="#">
+                                                        <div class="fcard">
+                                                            <img src="img/faculty/visiting-faculty/susmita-paul.jpg" class="fcard-img-top" alt="Visiting Faculty" />
+                                                            <div class="fcard-body">
+                                                                <p class="fcard-title">Dr. Susmita <span>Paul</span></p>
+                                                                <p class="fcard-deg"><b>Specialization: </b>Supply Chain Management</p>
+                                                                <p class="fcard-deg"><b>Education:</b>PhD, PGDM, B.E. (Electrical)</p>
+                                                                <p class="fcard-deg"><b>Total Exp.</b>24 Years</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <?php include "footer.php"; ?>
+
+    </div>
+
+
+
+    <?php include "footer-bottom.php"; ?>
+
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <script src="vendors/bootstrap/js/popper.min.js"></script>
+
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="vendors/fullpage/scroll-overflow.js"></script>
+
+    <script src="vendors/fullpage/fullpage.js"></script>
+
+    <script src="js/parallax.js"></script>
+
+    <script src="js/custom.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script src="popup/lightbox-plus-jquery.js"></script>
+
+    <?php include "scripts.php"; ?>
+
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+<?php 
+include('admin/dbc.php');
+include('admin/function.php');
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Faculty Profile of Dr Deepak Bansal | Best Management Colleges in Greater Noida</title>
+	<meta name="description" content="Faculty Profile of Prof. Dr Deepak Bansal - GNIOT Institute of Management Studies One of The Best PGDM Campus and Top College for PGDM provides Best PGDM private Colleges in Delhi, India."/>
+	<meta name="keywords" content="Best PGDM College in Delhi NCR, GNIOT Institute of Management Studies,  Top PGDM Colleges in Greater Noida, Top PGDM Colleges in UPTU, Best Management Colleges in India, UPSEE Best PGDM colleges ,Top  GBTU Institutes,Top Management institute"/>
+	<Meta name="Robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fevicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/fevicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/fevicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/fevicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/fevicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/fevicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/fevicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/fevicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/fevicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/fevicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/fevicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/fevicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/fevicon/favicon-16x16.png">
+	<link rel="manifest" href="img/fevicon//manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" type="image/x-icon" href="img/fevicon/favicon.ico" />
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fullpage/fullpage.css">
+    <link rel="stylesheet" href="vendors/elagent-icon/style.css">
+    <link rel="stylesheet" href="vendors/animation/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<?php include "header.php"; ?>
+    <style>
+        .faculty-achi-list li {
+            color: black;
+            list-style: circle;
+            font-size: 14px;
+            margin: 10px 0 0 18px;
+            border-bottom: 1px dashed black;
+            text-align: justify;
+        }
+        .faculty-achi-list {
+            margin-top:-25px;
+        }
+        .achi-title{
+            margin-top: 20px;
+        } 
+        .achi-title span {
+            background-color: #ca0000;
+            color: white;
+            padding: 0 5px;
+            font-size: 14px;
+        }
+        .faculty-achi-list a{
+            color: #ca0000;
+        }
+        .text-pgdm{
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body class="home_four">
+	<?php include "top-menu.php"; ?>
+	
+    <div id="wavescroll">
+		
+		<section class="section wave_two_section_two">
+            <div id="particles-js" class="p_absoulte"></div>
+            <img class="t_two p_absoulte" src="img/home_one/triangle_shap_two.png" alt="">
+            <img class="t_shap p_absoulte" src="img/home_three/shap.png" alt="">
+            <img class="b_shap p_absoulte" src="img/home_three/shap_two.png" alt="">
+            <img class="dot_one p_absoulte" src="img/home_three/dot.png" alt="">
+            <img class="dot_two p_absoulte" src="img/home_three/dot-1.png" alt="">
+            <div class="text" style="font-size:34px;">Faculty Profile</div>
+            <div class="s_round r_one p_absoulte"></div>
+            <div class="s_round r_two p_absoulte"></div>
+            <div class="s_round r_three p_absoulte"></div>
+            <div class="s_round r_four p_absoulte"></div>
+            <div class="s_round r_five p_absoulte"></div>
+            <div class="s_round r_six p_absoulte"></div>
+            <div class="s_round r_seven p_absoulte"></div>
+            <div class="s_round r_eight p_absoulte"></div>
+            <div class="s_round r_nine p_absoulte"></div>
+            <div class="s_round r_ten p_absoulte"></div>
+            <div class="s_round r_eleven p_absoulte"></div>
+            <div class="intro">
+                <div class="container custom_container">
+                    <div class="row align-items-center new-pd4 zoomanimate">
+						<div class="col-lg-12">
+							<ul class="breadcrumb">
+							  <li><a href="#">Home</a></li>
+							  <li>Faculty Profile</li>
+							  <li>Dr Deepak Bansal</li>
+							</ul>
+						</div>
+						<div class="col-lg-12">
+							<h1 class="page-t">Faculty Profile</h1>
+							<h3 class="sub-t">GIMS - Greater Noida</h3>
+						</div>
+                        <div class="col-md-12 no-padding">
+							<div class="row">
+								<div class="col-lg-9">
+									<div class="col-lg-12 new-pd9 awardbg2">
+										<p class="pgdmtext">
+											<img src="img/faculty/deepak-bansal.jpg" class="msgs" alt="Dr. Ruchi Rayat" />
+											Prof. Deepak Bansal is a Doctorate in Finance from Uttarakhand Technical University, Dehradun. He is the Master of Business Administration with specialization in Finance & Marketing from UPTU, Lucknow. He is the Master of Philosophy from Madurai Kamraj University, Madurai and the Master of Commerce from CCS University, Meerut. He is a bachelor in Education and Commerce. He has worked in various management institutes of repute in NCR Region. Presently he is associated with GNIOT Institute of Management Studies, Greater Noida. His area of interest includes Venture Capital Financing, Financial Management, Accounting for Management, Income Tax, Security Analysis and Portfolio Management, Financial Derivatives, Mergers, Acquisitions & Corporate Restructuring, and Financial Markets & Institutions. He has more than 18 years of academic, industry & research experience. He is in editorial board of repute journals. He has presented several research papers in National/International Journals and Conferences. He has organized and attended several workshops, conferences, seminars, FDPs and summits of national and international repute.
+											<br/>
+											<br/>
+                                            
+										</p>
+                                        <p class="achi-title">
+                                        <b>Research & Publications:</b><br>
+                                                <span>INTERNATIONAL JOURNALS</span>
+                                        </p>
+                                        <ul class="faculty-achi-list">
+                                            <li>
+                                                Bansal Deepak & Tomar Raj Kumar, Impact of GST on Venture Capital in India, VSRD International Journal of Business and Management Research, Vol. VII Issue XI November 2017 / 199 e-ISSN: 2231-248X, p-ISSN: 2319-2194 © VSRD International Journals: <a href="www.vsrdjournals.com" target="_blank" rel="nofollow">www.vsrdjournals.com</a>
+                                            </li>
+                                            <li>
+                                                Bansal Deepak, examination of venture capitalists’ role in Indian economy, 4D International Journal of Management and science (4DIJMS), vol. 4, issue 3-2014, ISSN No. 2250-0669.
+                                            </li>
+                                            <li>
+                                                Srivastava Vivek, Bansal Deepak, “A Study of trends of Non-Performing Assets in Private Banks in India” SHIV SHAKTI International Journal in Multidisciplinary and Academic Research (SSIJMAR) Vol. 2, No. 2, March-April (ISSN 2278 – 5973)
+                                            </li>
+                                            <li>
+                                                Srivastava Vivek, Bansal Deepak, & Sharma Anshul, A study on the performance of NPAs in commercial banks in India, VSRD International Journal of Business and Management Research, Vol. 3 No. 3 March 2013 / 85, e-ISSN: 2231-248X, p-ISSN: 2319-2194 © VSRD International Journals : <a href="www.vsrdjournals.com" target="_blank" rel="nofollow">www.vsrdjournals.com</a>
+                                            </li>
+                                        </ul>
+                                        <p class="achi-title">
+                                            <span>NATIONAL CONFERENCES</span>
+                                        </p>
+                                        <ul class="faculty-achi-list">
+                                            <li>
+                                                Presented a paper on the topic, “Impact of coronavirus on Indian Economy,” in National Webinar on “Coronavirus and its impact on Indian Economy: A road ahead” organized by M.B.A.- Financial Service Management Programme, FMS,
+                                                Mohanlal Sukhadia University, Udaipur Rajasthan on 14th April, 2020.
+                                            </li>
+                                            <li>
+                                                Bansal Swati Bansal Deepak, Evaluating employability skills from the perceptions of employer and graduates: A study on engineering and management graduates of Delhi/NCR region, National Conference on “Perspective and
+                                                approaches for employable skill development in New India”, Jaipuria School of Business, Indirapuram, Ghaziabad, 11th August 2018, First Impression: August 2018, ISBN: 978-93-88237-00-0, Excel India Publishers, New Delhi
+                                            </li>
+                                            <li>
+                                                Bansal Swati Bansal Deepak, A study of employability of engineering graduates and industry expectations in India with special reference to Greater Noida, National Conference on Latest Advances in Technology, Management and
+                                                Media, IIMT Group of Colleges, Greater Noida, 10th February 2018, KAAV Publication.
+                                            </li>
+                                            <li>
+                                                Bansal Deepak Gupta Mohit, Demonetization: Creation of a ‘less cash’ economy and its impact on GDP, National Conference on Paradigm shift in Indian economy: Demonetization, Delhi Technical Campus, Greater Noida, 12th April,
+                                                2017, ISBN: 978-81-933112-0-2, First Edition
+                                            </li>
+                                            <li>
+                                                Bansal Swati Bansal Deepak, Impact of Training and Development on Employees Performance-A Comparative Study, one day National Conference on “Emerging Trends in Management Practices” (ETMP 2017), Delhi Metropolitan Education,
+                                                Noida, 24th January, 2017,
+                                            </li>
+                                            <li>
+                                                Bansal Deepak Ganguly Subroto, Venture capital financing - A Powerful driver of Innovation in growing economy, National Conference on Engineering, Science Management-Innovation Change (ESMIC-16), Delhi Technical
+                                                Campus, Greater Noida, India, 10th 11th March, 2016, ISBN No. 978-783-9354-856-7
+                                            </li>
+                                            <li>
+                                                Bansal Deepak Shukla Utkarsh, venture capital financing and its impact on FDI, National Conference on Strategies for sustainable growth in the era of information technology, GNIOT Group of Institutions, Greater Noida, ISBN:
+                                                976-93-81212-31-8-1.
+                                            </li>
+                                        </ul>
+                                        <p class="achi-title"><span>INTERNATIONAL CONFERENCES</span></p>
+                                        <ul class="faculty-achi-list">
+                                            <li>
+                                                Paper accepted on “Role of Emerging Technologies in the Outperformance of Firms: A Case Study of Select Indian Firms” in a two-day "International Conference on Materials, Machines Information Technology - 2022" (ICMMIT-2022)
+                                                through Online Mode (ZOOM) from 24th January 2022 to 25th January 2022 to be published in journal, IOP Conference Series: Materials Science and Engineering (MSE), indexed in major scientific indices.
+                                            </li>
+                                            <li>
+                                                Paper accepted and published on “Employability of Management Graduates through the lens of Knowledge, Skills and Abilities” for the 10th IEEE International Conference on System Modelling Advancement on Research Trends
+                                                (SMART-2021)
+                                            </li>
+                                            <li>Conference Record #52563 which is going to be held on December 10-11, 2021 | CCSIT TMU MORADABAD, UP, INDIA.</li>
+                                            <li>
+                                                Bansal Deepak, The Trend of Various Start-Ups to Domicile Overseas: An Overview of Current Scenario in Venture Capital Funding, International Conference on Technological and Managerial Strategies for Next Generation
+                                                Transformation, MIMT, Greater Noida, India, 18th March, 2017, ISBN 978-93-86432-66-7, Published by Bloomsbury Publishing India Pvt. Ltd.
+                                            </li>
+                                            <li>
+                                                Swarna Ramni Bansal Deepak, New Opportunities-Innovative Jobs: An Introduction To Fresh Job Titles And Designations From The World Of Digital Marketing, International Conference on Technological and Managerial Strategies for
+                                                Next Generation Transformation, MIMT, Greater Noida, India, 18th March, 2017, ISBN 978-93-86432-66-7
+                                            </li>
+                                            <li>
+                                                Bansal Deepak Goyal Rahul, Current scenario of venture capital financing- A study on some selected areas of Indian economy, International Conference on Latest advances in Tecyhnology, Management Applied Sciences
+                                                (LATMAS-2016), IIMT College of Engineering, Greater Noida, India, 20th February, 2016, ISBN 978-93-5254-625-1
+                                            </li>
+                                            <li>
+                                                Srivastava Vivek, Bansal Deepak, Gupta S.K. Saxena Shashank, Marketing Innovation in Indian Rural Banking Sector, International Conference on Innovative Management Practices for Global Competitiveness, Lingaya’s Lalita Devi
+                                                Institute of Management Sciences, New Delhi, India, 2nd Nov.,2012
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <br>
+                                        <p class="text-pgdm">
+                                            <b>Dr. Deepak Bansal
+                                            <br>
+                                            	Professor, Area chair- Finance,
+                                            <br>
+                                            PhD(Management), M.Phil(Management)
+                                            </b>
+                                        </p>
+
+
+									</div>
+								</div>
+								<div class="col-md-3 sidebar" id="sidebar">
+									<?php include "about-sidebar.php"; ?>
+								</div>
+							</div>
+						</div>
+						
+                    </div>
+                </div>
+            </div>
+        </section>		
+		<?php include "footer.php"; ?>
+    </div>
+	
+	<?php include "footer-bottom.php"; ?>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/js/popper.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/fullpage/scroll-overflow.js"></script>
+    <script src="vendors/fullpage/fullpage.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+	<?php include "scripts.php"; ?>
+</body>
+</html>

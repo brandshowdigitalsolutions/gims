@@ -1,0 +1,449 @@
+<?php 
+
+include('admin/dbc.php');
+
+include('admin/function.php');
+
+?>
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Team-CRC | Top Management Colleges in Greater Noida</title>
+
+	<meta name="description" content="Team-CRC - GNIOT Institute of Management Studies One of The Best PGDM Campus and Top College for PGDM provides Best PGDM private Colleges in Delhi, India."/>
+
+	<meta name="keywords" content="Best PGDM College in Delhi NCR, GNIOT Institute of Management Studies,  Top PGDM Colleges in Greater Noida, Top PGDM Colleges in UPTU, Best Management Colleges in India, UPSEE Best PGDM colleges ,Top  GBTU Institutes,Top Management institute"/>
+
+	<Meta name="Robots" content="index, follow">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fevicon/apple-icon-57x57.png">
+
+	<link rel="apple-touch-icon" sizes="60x60" href="img/fevicon/apple-icon-60x60.png">
+
+	<link rel="apple-touch-icon" sizes="72x72" href="img/fevicon/apple-icon-72x72.png">
+
+	<link rel="apple-touch-icon" sizes="76x76" href="img/fevicon/apple-icon-76x76.png">
+
+	<link rel="apple-touch-icon" sizes="114x114" href="img/fevicon/apple-icon-114x114.png">
+
+	<link rel="apple-touch-icon" sizes="120x120" href="img/fevicon/apple-icon-120x120.png">
+
+	<link rel="apple-touch-icon" sizes="144x144" href="img/fevicon/apple-icon-144x144.png">
+
+	<link rel="apple-touch-icon" sizes="152x152" href="img/fevicon/apple-icon-152x152.png">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="img/fevicon/apple-icon-180x180.png">
+
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/fevicon/android-icon-192x192.png">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="img/fevicon/favicon-32x32.png">
+
+	<link rel="icon" type="image/png" sizes="96x96" href="img/fevicon/favicon-96x96.png">
+
+	<link rel="icon" type="image/png" sizes="16x16" href="img/fevicon/favicon-16x16.png">
+
+	<link rel="manifest" href="img/fevicon//manifest.json">
+
+	<meta name="msapplication-TileColor" content="#ffffff">
+
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+	<meta name="theme-color" content="#ffffff">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/fevicon/favicon.ico" />
+
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="vendors/fullpage/fullpage.css">
+
+    <link rel="stylesheet" href="vendors/elagent-icon/style.css">
+
+    <link rel="stylesheet" href="vendors/animation/animate.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+
+	<?php include "header.php"; ?>
+    <style>
+        .detailcercont {
+    display: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+}
+.active-detail {
+    display: block;
+}
+
+.crc-name h4 {
+    margin-top: 15px;
+}
+.detailcercont {
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999989999999999999;
+    background: rgba(0,0,0,.41);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+.innercontentpop {
+    background: white;
+    padding: 45px;
+}
+.poptitle {
+    font-size: 25px;
+    font-weight: 700;
+}
+.close-btn {
+    cursor: pointer;
+    color: #323232;
+    margin-left: 10px;
+    background: #ffc300;
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opendet {
+    cursor: pointer;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background: #082c91;
+    width: 100%;
+    padding: 2px 0;
+    gap: 10px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .close-btn {
+        float: none;
+        margin-bottom: 18px;
+    }
+    .crc-name {
+    position: static;
+    margin-top: -6px;
+}
+}
+    </style>
+
+</head>
+
+<body class="home_four">
+
+
+
+	<?php include "top-menu.php"; ?>
+
+	
+
+    <div id="wavescroll">
+
+		
+
+		<section class="section wave_two_section_two">
+
+            <div id="particles-js" class="p_absoulte"></div>
+
+            <img class="t_two p_absoulte" src="img/home_one/triangle_shap_two.png" alt="">
+
+            <img class="t_shap p_absoulte" src="img/home_three/shap.png" alt="">
+
+            <img class="b_shap p_absoulte" src="img/home_three/shap_two.png" alt="">
+
+            <img class="dot_one p_absoulte" src="img/home_three/dot.png" alt="">
+
+            <img class="dot_two p_absoulte" src="img/home_three/dot-1.png" alt="">
+
+            <div class="text" style="font-size:34px;">Team-CRC</div>
+
+            <div class="s_round r_one p_absoulte"></div>
+
+            <div class="s_round r_two p_absoulte"></div>
+
+            <div class="s_round r_three p_absoulte"></div>
+
+            <div class="s_round r_four p_absoulte"></div>
+
+            <div class="s_round r_five p_absoulte"></div>
+
+            <div class="s_round r_six p_absoulte"></div>
+
+            <div class="s_round r_seven p_absoulte"></div>
+
+            <div class="s_round r_eight p_absoulte"></div>
+
+            <div class="s_round r_nine p_absoulte"></div>
+
+            <div class="s_round r_ten p_absoulte"></div>
+
+            <div class="s_round r_eleven p_absoulte"></div>
+
+            <div class="intro">
+
+                <div class="container custom_container">
+
+                    <div class="row align-items-center new-pd4 zoomanimate">
+
+						<div class="col-lg-12">
+
+							<ul class="breadcrumb">
+
+							  <li><a href="#">Home</a></li>
+
+							  <li><a href="#">Corporate Resource Centre</a></li>
+
+							  <li>Team-CRC</li>
+
+							</ul>
+
+						</div>
+
+						<div class="col-lg-12">
+
+							<h1 class="page-t">Team-CRC</h1>
+
+							<h3 class="sub-t">GIMS - Greater Noida</h3>
+
+						</div>
+
+                        <div class="col-md-12 no-padding">
+
+							<div class="row">
+
+                            <div class="col-lg-9">
+                                <div class="col-lg-12 new-pd9 awardbg2">
+                                    <div class="placement-process">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-xs-6">
+                                                <div class="crc-team">
+                                                    <div class="crc-img"><img src="img/team-crc/new/mudit-tomar.jpg" alt="Team CRC"/></div>
+                                                    <div class="crc-name">
+                                                        <p>Prof. Mudit Tomar</p>
+                                                        <h4>Dean OEC</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6">
+                                                <div class="crc-team">
+                                                    <div class="crc-img"><img src="img/team-crc/new/damian-amaral.jpg" alt="Team CRC"/></div>
+                                                    <div class="crc-name">
+                                                        <p>Mr. Damian Amaral</p>
+                                                        <h4>Head CRC</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6">
+                                                <div class="crc-team">
+                                                    <div class="crc-img"><img src="img/team-crc/new/nikhil-kumar.jpg" alt="Team CRC"/></div>
+                                                    <div class="crc-name">
+                                                        <p>Mr. Nikhil Kumar</p>
+                                                        <h4>Assistant Manager</h4>
+                                                        <span class="opendet" data-target="NikhilKumar">Know more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6">
+                                                <div class="crc-team">
+                                                    <div class="crc-img"><img src="img/team-crc/new/pooja-srivastava.jpg" alt="Team CRC"/></div>
+                                                    <div class="crc-name">
+                                                        <p>Ms.Pooja Srivastava</p>
+                                                        <h4>Placement Coordinator</h4>
+                                                        <span class="opendet" data-target="PoojaSrivastava">Know more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6">
+                                                <div class="crc-team">
+                                                    <div class="crc-img"><img src="img/team-crc/new/anjali-sinha.jpg" alt="Team CRC"/></div>
+                                                    <div class="crc-name">
+                                                        <p>Ms. Anjali Sinha</p>
+                                                        <h4>Placement Coordinator</h4>
+                                                        <span class="opendet" data-target="AnjaliSinha">Know more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6">
+                                                <div class="crc-team">
+                                                    <div class="crc-img"><img src="img/team-crc/new/priyanka-singh.jpg" alt="Team CRC"/></div>
+                                                    <div class="crc-name">
+                                                        <p>Ms. Priyanka Singh</p>
+                                                        <h4>CRC Coordinator</h4>
+                                                        <span class="opendet" data-target="PriyankaSingh">Know more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6">
+                                                <div class="crc-team">
+                                                    <div class="crc-img"><img src="img/team-crc/new/khina-maya-rimal.jpg" alt="Team CRC"/></div>
+                                                    <div class="crc-name">
+                                                        <p>Dr. Khina Maya Rimal</p>
+                                                        <h4>Alumni Coordinator</h4>
+                                                        <span class="opendet" data-target="KhinaMayaRimal">Know more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+								<div class="col-md-3 sidebar" id="sidebar">
+
+									<?php include "about-sidebar.php"; ?>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>		
+
+		<?php include "footer.php"; ?>
+
+    </div>
+
+    
+<div class="detailcercont" id="NikhilKumar">
+    <span class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span>
+    <div class="container">
+        <div class="innercontentpop">
+            <p class="poptitle">Mr.Nikhil Kumar</p>
+            <p class="parapop">Corporate Resource Centre (CRC) acts as an interface between the students, academia and the corporate world. This in turn helps in preparing industry ready professionals as per the current market needs. CRC at GIMS not only frequently invites leading Companies for the campus placements & internships but also organizes corporate guest lectures and industry interaction with the students.</p>
+        </div>
+    </div>
+</div>
+<div class="detailcercont" id="PoojaSrivastava">
+    <span class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span>
+    <div class="container">
+        <div class="innercontentpop">
+            <p class="poptitle">Ms.Pooja Srivastava</p>
+            <p class="parapop">The CRC or the Placement cell plays a vital role in bringing the industry and academia close to each other by providing career counseling,need based education and organization support . GIMS has made a mark by providing the students job opportunities in prestigious and reputed firms. My gratitude is due to our regular recruiters who have shown consistent faith in the institute’s value system.Looking forward to a mutually beneficial relationship.</p>
+        </div>
+    </div>
+</div>
+<div class="detailcercont" id="PriyankaSingh">
+    <span class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span>
+    <div class="container">
+        <div class="innercontentpop">
+            <p class="poptitle">Ms.Priyanka Singh</p>
+            <p class="parapop">CRC at GIMS believes in "Inculcating Confidence Through Knowledge''. We Instill critical thinking in our students to make the leaders of tomorrow self reliant and lifelong learners. This approach has its obvious results as seen through the lens of student placements. The practical inputs are given by rigorous field- Industrial Visits, Workshop, Seminars,Guest lectures and Live Projects to make them industry worthy and confident individuals.</p>
+        </div>
+    </div>
+</div>
+<div class="detailcercont" id="AnjaliSinha">
+    <span class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span>
+    <div class="container">
+        <div class="innercontentpop">
+            <p class="poptitle">Ms.Anjali Sinha</p>
+            <p class="parapop">CRC at GIMS believes in unstopping innovation which helps us to come up with novel initiatives and practices. With a team that is always on the go, CRC at GIMS leaves no stone
+                <br>
+            unturned to ensure that each collaboration reaps the best possible outcome. CRC here has proven its credibility time and again by showing its continuous hard work and perseverance to provide the best career opportunities to the students.</p>
+        </div>
+    </div>
+</div>
+<div class="detailcercont" id="KhinaMayaRimal">
+    <span class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span>
+    <div class="container">
+        <div class="innercontentpop">
+            <p class="poptitle">Dr. Khina Maya Rimal</p>
+            <p class="parapop">GIMS cherishes its alumni not only as they are role models for the successor scholars but also as the ambassadors of the institution's vision and mission. We are committed to establish and nurture strong bonds between the alumni and institution for achieving excellence, setting higher benchmarks, everyday and scaling new horizons of the Academic Universe.Having interacted with many alumni of our institutions, I am consistently been impressed by their accomplishment and their commitment towards serving the community and the nation.</p>
+        </div>
+    </div>
+</div>
+
+
+    <?php include "footer-bottom.php"; ?>
+
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <script src="vendors/bootstrap/js/popper.min.js"></script>
+
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="vendors/fullpage/scroll-overflow.js"></script>
+
+    <script src="vendors/fullpage/fullpage.js"></script>
+
+    <script src="js/parallax.js"></script>
+
+    <script src="js/custom.js"></script>
+
+    <script src="js/main.js"></script>
+
+	<?php include "scripts.php"; ?>
+
+    <script>
+        const opendetElements = document.querySelectorAll('.opendet');
+        const closeButtons = document.querySelectorAll('.close-btn');
+
+        opendetElements.forEach(opendet => {
+            opendet.addEventListener('click', () => {
+                const targetId = opendet.getAttribute('data-target');
+                const targetDetail = document.getElementById(targetId);
+
+                // Hide all detailcercont elements
+                document.querySelectorAll('.detailcercont').forEach(detail => {
+                    detail.classList.remove('active-detail');
+                });
+
+                // Show the targeted detailcercont element
+                if (targetDetail) {
+                    targetDetail.classList.add('active-detail');
+                }
+            });
+        });
+
+        closeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const parentDetail = button.closest('.detailcercont');
+                if (parentDetail) {
+                    parentDetail.classList.remove('active-detail');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

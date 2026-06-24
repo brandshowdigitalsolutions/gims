@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: /demo/
+Disallow: /default-bkp/
+Disallow: /main-web/
+Disallow: /bckup-27-nov-21/
+Disallow: /gims-demo/
+Disallow: /main-web/
+
+Allow: /

@@ -1,0 +1,144 @@
+<?php
+include('admin/dbc.php');
+include('admin/function.php');
+?>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Corporate Mentor - Mr. Jitu Singh Mandla| Top Management Colleges in Greater Noida</title>
+    <meta name="description" content="Corporate Mentor - Mr. Jitu Singh Mandla - GNIOT Institute of Management Studies One of The Best PGDM Campus and Top College for PGDM provides Best PGDM private Colleges in Delhi, India." />
+    <meta name="keywords" content="Best PGDM College in Delhi NCR, GNIOT Institute of Management Studies,  Top PGDM Colleges in Greater Noida, Top PGDM Colleges in UPTU, Best Management Colleges in India, UPSEE Best PGDM colleges ,Top  GBTU Institutes,Top Management institute" />
+    <Meta name="Robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fevicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/fevicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/fevicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/fevicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/fevicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/fevicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/fevicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/fevicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fevicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/fevicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fevicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/fevicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fevicon/favicon-16x16.png">
+    <link rel="manifest" href="img/fevicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" type="image/x-icon" href="img/fevicon/favicon.ico" />
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fullpage/fullpage.css">
+    <link rel="stylesheet" href="vendors/elagent-icon/style.css">
+    <link rel="stylesheet" href="vendors/animation/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <?php include "header.php"; ?>
+</head>
+
+<body class="home_four">
+    <?php include "top-menu.php"; ?>
+
+    <div id="wavescroll">
+
+        <section class="section wave_two_section_two">
+            <div id="particles-js" class="p_absoulte"></div>
+            <img class="t_two p_absoulte" src="img/home_one/triangle_shap_two.png" alt="">
+            <img class="t_shap p_absoulte" src="img/home_three/shap.png" alt="">
+            <img class="b_shap p_absoulte" src="img/home_three/shap_two.png" alt="">
+            <img class="dot_one p_absoulte" src="img/home_three/dot.png" alt="">
+            <img class="dot_two p_absoulte" src="img/home_three/dot-1.png" alt="">
+            <div class="text" style="font-size:34px;">Corporate Mentor - Mr. Jitu Singh Mandla</div>
+            <div class="s_round r_one p_absoulte"></div>
+            <div class="s_round r_two p_absoulte"></div>
+            <div class="s_round r_three p_absoulte"></div>
+            <div class="s_round r_four p_absoulte"></div>
+            <div class="s_round r_five p_absoulte"></div>
+            <div class="s_round r_six p_absoulte"></div>
+            <div class="s_round r_seven p_absoulte"></div>
+            <div class="s_round r_eight p_absoulte"></div>
+            <div class="s_round r_nine p_absoulte"></div>
+            <div class="s_round r_ten p_absoulte"></div>
+            <div class="s_round r_eleven p_absoulte"></div>
+            <div class="intro">
+                <div class="container custom_container">
+                    <div class="row align-items-center new-pd4 zoomanimate">
+                        <div class="col-lg-12">
+                            <ul class="breadcrumb">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li>Corporate Mentor - Mr. Jitu Singh Mandla</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-12">
+                            <h1 class="page-t">Mentorship with Corporate Groups</h1>
+                            <h3 class="sub-t">Mr. Jitu Singh Mandla</h3>
+                        </div>
+                        <div class="col-md-12 no-padding">
+                            <div class="row">
+                                <div class="col-lg-9">
+                                    <div class="col-lg-12 new-pd9 awardbg2">
+                                        <p class="pgdmtext">
+                                            <img src="img/corporate-mentor/jitu-singh.webp" class="msgs" alt="Chairman Message" />
+                                            <span style="font-size: 60px; float: left; line-height: 51px; margin-right: 6px; font-family: auto;">D</span>
+
+                                            ear Students,<br>
+                                            I am Jitu Singh Mandla, an accomplished professional consultant with over 19 years of experience in Client Consulting, Knowledge Management, CRM Implementation, and Market Intelligence for clients across multiple sectors and industries. <br><br>
+
+                                            As you stand on the threshold of your careers, I want to share a few thoughts on navigating corporate life and building a successful future. <br><br>
+
+                                            <strong>Embrace a growth mindset</strong> – The world of business is ever-evolving, and being open to learning will set you apart. Seek out challenges and view failures as opportunities for growth. Each experience, whether positive or negative, shapes your journey. <br><br>
+
+                                            <strong>Networking is key</strong> – Build genuine relationships with your peers, mentors, and industry professionals. Your connections can open doors and provide invaluable insights. Remember, collaboration often leads to innovation. <br><br>
+
+                                            <strong>Cultivate resilience</strong> – Corporate life can be demanding, but your ability to adapt and persevere will be your greatest asset. Stay focused on your goals and be willing to pivot when necessary. <br><br>
+
+                                            <strong>Stay true to your values</strong> – Integrity, empathy, and authenticity will guide your decisions and help you build a reputation you can be proud of. Success is not just about titles or paychecks; it’s also about making a positive impact. <br><br>
+
+                                            As you embark on this exciting learning journey, remember that your unique perspective is your strength. Believe in yourself, stay curious, and never underestimate the power of hard work and dedication. <br><br>
+
+                                            Wishing you all the success in the world! <br><br>
+
+                                            Best regards, <br>
+                                            <strong>Mr. Jitu Singh Mandla</strong> <br>
+                                            <strong>Chief Knowledge Officer,</strong> <br>
+                                            <strong>Khaitan & Co.</strong>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 sidebar" id="sidebar">
+                                    <?php include "about-sidebar.php"; ?>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <?php include "footer.php"; ?>
+    </div>
+
+    <?php include "footer-bottom.php"; ?>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/js/popper.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/fullpage/scroll-overflow.js"></script>
+    <script src="vendors/fullpage/fullpage.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+    <?php include "scripts.php"; ?>
+</body>
+
+</html>

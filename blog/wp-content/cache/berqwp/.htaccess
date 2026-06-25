@@ -1,0 +1,7 @@
+Order allow,deny
+Deny from all
+
+<FilesMatch "index\.html\.gz$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>

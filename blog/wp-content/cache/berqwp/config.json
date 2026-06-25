@@ -1,0 +1,10 @@
+{
+    "site_id": "",
+    "secret": "",
+    "home_url": "",
+    "optimization_method": "",
+    "exclude_cookies": [],
+    "exclude_urls": [],
+    "cache_lifespan": 2592000,
+    "page_compression": false
+}

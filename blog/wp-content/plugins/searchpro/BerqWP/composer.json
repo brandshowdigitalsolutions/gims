@@ -1,0 +1,22 @@
+{
+    "name": "berqwp/sdk",
+    "description": "BerqWP PHP SDK",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "voku/simple_html_dom": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "BerqWP\\": "src/"
+        }
+    },
+    "config": {
+        "disable-tls": true,
+        "secure-http": false,
+        "platform": {
+            "php": "7.4.0"
+        }
+    }
+}

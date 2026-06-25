@@ -1,0 +1,7 @@
+name: country-code-converter
+recipe: lamp
+config:
+  webroot: .
+services:
+  appserver:
+    type: php:8.4

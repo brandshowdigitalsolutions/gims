@@ -1,0 +1,554 @@
+<?php
+if (!defined('ABSPATH'))
+    exit;
+
+$cached_pages = bwp_cached_pages_count();
+$plugin_name = defined('BERQWP_PLUGIN_NAME') ? BERQWP_PLUGIN_NAME : 'BerqWP';
+$berqconfigs = berqConfigs::getInstance();
+$configs = $berqconfigs->get_configs();
+$berqwp_can_use_cloud = berqwp_can_use_cloud();
+?>
+<!--<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;&display=swap" rel="stylesheet">-->
+<!--<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">-->
+<!--<link href="<?php echo esc_attr(optifer_URL . '/admin/css/dataTables.dataTables.min.css?v=' . BERQWP_VERSION); ?>" rel="stylesheet">-->
+<!--<link rel="stylesheet" href="<?php echo esc_attr(optifer_URL . '/admin/css/style.css?v=' . BERQWP_VERSION); ?>">-->
+<!--<link rel="stylesheet" href="<?php echo esc_attr(optifer_URL . '/admin/css/bootstrap-slider.min.css?v=' . BERQWP_VERSION); ?>">-->
+<!--<link rel="stylesheet" href="<?php echo esc_attr(optifer_URL . '/admin/css/bootstrap.min.css?v=' . BERQWP_VERSION); ?>">-->
+
+<div class="wrap1">
+    <!-- <h1 style="display:none">BerqWP</h1>
+    <div></div> -->
+    <div class="berqwp-dashbaord">
+        <div class="berqwp-header">
+            <img src="<?php
+
+                        if (defined('BERQWP_LOGO')) {
+                            echo esc_attr(BERQWP_LOGO);
+                        } else {
+                            echo esc_attr(optifer_URL . '/admin/img/logo.png');
+                        }
+
+                        ?>" alt="BerqWP Logo">
+            <div class="berqwp-header-right">
+                <?php if (empty(berqwp_get_license_key())) { ?>
+                    <a class="bwp-action-btn light bwp-upgrade-btn" href="https://berqwp.com/pricing/?referrer=plugin-installation" target="_blank">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"/><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"/></svg>
+                        </div>
+                        Upgrade Performance
+                    </a>
+                <?php } ?>
+                <div class="optimization-methods-switch <?php echo esc_attr($configs['optimization_method'])?>" title="Optimization method">
+                    <a class="method-local" href="<?php echo esc_attr(wp_nonce_url(admin_url('admin-post.php?action=switch_optimization_method_local'), 'switch_optimization_method_local_action')); ?>">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-server-icon lucide-server">
+                                <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+                                <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+                                <line x1="6" x2="6.01" y1="6" y2="6" />
+                                <line x1="6" x2="6.01" y1="18" y2="18" />
+                            </svg>
+                        </div>
+                        Local (free)
+
+                    </a>
+
+                    <a class="method-cloud" href="<?php echo esc_attr(wp_nonce_url(admin_url('admin-post.php?action=switch_optimization_method_cloud'), 'switch_optimization_method_cloud_action')); ?>">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloudy-icon lucide-cloudy">
+                                <path d="M17.5 12a1 1 0 1 1 0 9H9.006a7 7 0 1 1 6.702-9z" />
+                                <path d="M21.832 9A3 3 0 0 0 19 7h-2.207a5.5 5.5 0 0 0-10.72.61" />
+                            </svg>
+                        </div>
+                        BerqWP Cloud
+                    </a>
+                </div>
+
+                <a class="bwp-action-btn light" href="<?php echo esc_attr(wp_nonce_url(admin_url('admin-post.php?action=clear_cache'), 'clear_cache_action')); ?>">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brush-cleaning-icon lucide-brush-cleaning"><path d="m16 22-1-4"/><path d="M19 14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-3a1 1 0 0 1-1-1V4a2 2 0 0 0-4 0v5a1 1 0 0 1-1 1H6a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1"/><path d="M19 14H5l-1.973 6.767A1 1 0 0 0 4 22h16a1 1 0 0 0 .973-1.233z"/><path d="m8 22 1-4"/></svg>
+                    </div>
+                    Flush cache
+                </a>
+
+                <?php if ($berqwp_can_use_cloud) { ?>
+                <a class="bwp-action-btn" href="<?php echo esc_attr(wp_nonce_url(admin_url('admin-post.php?action=warmup_cache'), 'warmup_cache_action')); ?>">
+
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-ccw-icon lucide-refresh-ccw"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 16h5v5"/></svg>
+                    </div>
+                    Warmup cache
+                </a>
+                <?php } ?>
+
+                <?php if (bwp_show_docs()) { ?>
+                    <!--<a href="https://wordpress.org/support/plugin/searchpro/reviews/#new-post" target="_blank"
+                        class="berqwp-support">
+                        <?php esc_html_e('Write a review', 'searchpro'); ?>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.0001 3C10.7349 3 10.4805 3.10536 10.293 3.29289C10.1054 3.48043 10.0001 3.73478 10.0001 4C10.0001 4.26522 10.1054 4.51957 10.293 4.70711C10.4805 4.89464 10.7349 5 11.0001 5H13.5861L7.29308 11.293C7.19757 11.3852 7.12139 11.4956 7.06898 11.6176C7.01657 11.7396 6.98898 11.8708 6.98783 12.0036C6.98668 12.1364 7.01198 12.2681 7.06226 12.391C7.11254 12.5139 7.18679 12.6255 7.28069 12.7194C7.37458 12.8133 7.48623 12.8875 7.60913 12.9378C7.73202 12.9881 7.8637 13.0134 7.99648 13.0123C8.12926 13.0111 8.26048 12.9835 8.38249 12.9311C8.50449 12.8787 8.61483 12.8025 8.70708 12.707L15.0001 6.414V9C15.0001 9.26522 15.1054 9.51957 15.293 9.70711C15.4805 9.89464 15.7349 10 16.0001 10C16.2653 10 16.5197 9.89464 16.7072 9.70711C16.8947 9.51957 17.0001 9.26522 17.0001 9V4C17.0001 3.73478 16.8947 3.48043 16.7072 3.29289C16.5197 3.10536 16.2653 3 16.0001 3H11.0001Z"
+                                fill="#465774" />
+                            <path
+                                d="M5 5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V15C3 15.5304 3.21071 16.0391 3.58579 16.4142C3.96086 16.7893 4.46957 17 5 17H13C13.5304 17 14.0391 16.7893 14.4142 16.4142C14.7893 16.0391 15 15.5304 15 15V12C15 11.7348 14.8946 11.4804 14.7071 11.2929C14.5196 11.1054 14.2652 11 14 11C13.7348 11 13.4804 11.1054 13.2929 11.2929C13.1054 11.4804 13 11.7348 13 12V15H5V7H8C8.26522 7 8.51957 6.89464 8.70711 6.70711C8.89464 6.51957 9 6.26522 9 6C9 5.73478 8.89464 5.48043 8.70711 5.29289C8.51957 5.10536 8.26522 5 8 5H5Z"
+                                fill="#465774" />
+                        </svg>
+
+                    </a>-->
+                <?php } ?>
+
+            </div>
+        </div>
+        <div class="berqwp-dashbord-body">
+            <div class="berqwp-tabs">
+                <div class="berqwp-tab <?php bwp_is_tab_nav('dashboard'); ?>" data-tab="dashboard">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard-icon lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg></div>
+                    <?php esc_html_e('Dashboard', 'searchpro'); ?>
+                </div>
+                <div class="berqwp-tab <?php bwp_is_tab_nav('cache-management'); ?>" data-tab="cache-management">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge-icon lucide-gauge"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg></div>
+                    <?php esc_html_e('Cache Management', 'searchpro'); ?>
+                </div>
+                <div class="berqwp-tab <?php bwp_is_tab_nav('css-javascript'); ?>" data-tab="css-javascript">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-icon lucide-code"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg></div>
+                    <?php esc_html_e('CSS & JavaScript', 'searchpro'); ?>
+                </div>
+                <div class="berqwp-tab <?php bwp_is_tab_nav('media-optimization'); ?>" data-tab="media-optimization">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-images-icon lucide-images"><path d="m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16"/><path d="M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2"/><circle cx="13" cy="7" r="1" fill="currentColor"/><rect x="8" y="2" width="14" height="14" rx="2"/></svg></div>
+                    <?php esc_html_e('Media Optimization', 'searchpro'); ?>
+                </div>
+                <div class="berqwp-tab <?php bwp_is_tab_nav('content-delivery-network'); ?>" data-tab="content-delivery-network">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-earth-icon lucide-earth"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg></div>
+                    <?php esc_html_e('CDN', 'searchpro'); ?>
+                </div>
+                <!--<div class="berqwp-tab <?php bwp_is_tab_nav('image-optimization'); ?>" data-tab="image-optimization">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-images-icon lucide-images"><path d="m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16"/><path d="M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2"/><circle cx="13" cy="7" r="1" fill="currentColor"/><rect x="8" y="2" width="14" height="14" rx="2"/></svg></div>
+                    <?php esc_html_e('Image Optimization', 'searchpro'); ?>
+                </div>
+                <div class="berqwp-tab <?php bwp_is_tab_nav('script-manager'); ?>" data-tab="script-manager">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-code-corner-icon lucide-file-code-corner"><path d="M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="m5 16-3 3 3 3"/><path d="m9 22 3-3-3-3"/></svg></div>
+                    <?php esc_html_e('Script Manager', 'searchpro'); ?>
+                </div>-->
+                <div class="berqwp-tab <?php bwp_is_tab_nav('integration'); ?>" data-tab="integration">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-blocks-icon lucide-blocks"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg></div>
+                    <?php esc_html_e('Integration', 'searchpro'); ?>
+                </div>
+                <?php if ($berqwp_can_use_cloud) { ?>
+                <div class="berqwp-tab <?php bwp_is_tab_nav('activate-license'); ?>" data-tab="activate-license">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings2-icon lucide-settings-2"><path d="M14 17H5"/><path d="M19 7h-9"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg></div>
+                    <?php esc_html_e('License', 'searchpro'); ?>
+                </div>
+                <?php } ?>
+                <a class="berqwp-tab tab-link" target="_blank" href="https://www.facebook.com/groups/1660827728253423">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="24"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 440 146.7 540.8 258.2 568.5L258.2 398.2L205.4 398.2L205.4 320L258.2 320L258.2 286.3C258.2 199.2 297.6 158.8 383.2 158.8C399.4 158.8 427.4 162 438.9 165.2L438.9 236C432.9 235.4 422.4 235 409.3 235C367.3 235 351.1 250.9 351.1 292.2L351.1 320L434.7 320L420.3 398.2L351 398.2L351 574.1C477.8 558.8 576 450.9 576 320z"/></svg></svg></div>
+                    <?php esc_html_e('Join BerqWP Community', 'searchpro'); ?>
+                </a>
+            </div>
+            <div class="berqwp-tab-content">
+                <?php do_action('berqwp_notices'); ?>
+                <form action="" method="post">
+                    <?php
+                    wp_nonce_field('berqwp_save_settings', 'berqwp_save_nonce');
+                    ?>
+                    <input type="hidden" name="bwp_current_tab_id" value="<?php echo !empty($_GET['tab_id']) ? esc_attr(sanitize_text_field(wp_unslash($_GET['tab_id']))) : 'dashboard'; ?>">
+                    <?php
+                    require_once optifer_PATH . '/admin/tabs/dashboard.php';
+                    require_once optifer_PATH . '/admin/tabs/cache-management.php';
+                    require_once optifer_PATH . '/admin/tabs/content-delivery-network.php';
+                    require_once optifer_PATH . '/admin/tabs/css-javascript.php';
+                    // require_once optifer_PATH . '/admin/tabs/image-optimization.php';
+                    require_once optifer_PATH . '/admin/tabs/media-optimization.php';
+                    // require_once optifer_PATH . '/admin/tabs/script-manager.php';
+                    require_once optifer_PATH . '/admin/tabs/integration.php';
+
+                    if ($berqwp_can_use_cloud) {
+                        require_once optifer_PATH . '/admin/tabs/activate-license.php';
+                    }
+
+                    ?>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <p class="below-settings-panel">Explore <a href="https://berqier.com" target="_blank">Berqier Ltd</a>, the creators of
+    BerqWP. Want to know more? Reach out—we love talking WordPress!</p> -->
+<!--<script src="<?php echo esc_attr(optifer_URL . '/admin/js/bootstrap-slider.js?v=' . BERQWP_VERSION); ?>"></script>-->
+<!--<script src="<?php echo esc_attr(optifer_URL . '/admin/js/dataTables.min.js?v=' . BERQWP_VERSION); ?>"></script>-->
+<script>
+    (function($) {
+        $(document).ready(function() {
+            const bwp_controllers = [];
+            // $('.bwp_feedback').hide();
+            let berq_nounce = '<?php echo esc_html(wp_create_nonce('wp_rest')); ?>';
+            let bwp_pages_nonce = '<?php echo esc_html(wp_create_nonce('berqwp_get_optimized_pages_nonce')); ?>';
+
+            window.addEventListener('beforeunload', () => {
+                bwp_controllers.forEach(c => c.abort());
+            });
+
+
+            function numberWithCommas(x) {
+                return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            function init_opt_slider() {
+                let opt_slider = new Slider('#berq_opt_mode', {
+                    // min: 5,
+                    // max: 30,
+                    value: '<?php echo esc_html(get_option('berq_opt_mode', 4)); ?>',
+                    ticks_labels: ['Basic', 'Medium', 'Blaze', 'Aggressive'],
+                    ticks: [1, 2, 3, 4],
+                    // ticks_positions: [0, 50, 100],
+                    ticks_snap_bounds: 20,
+                    tooltip_position: 'bottom',
+                    // formatter: function (value) {
+                    //     if (value == 1) {
+                    //         // return '<div class="tooltip-title">Basic (stable)</div> <div class="tooltip-content">Basic optimizations like image lazy loading, page cache etc</div>';
+                    //         $("div.tooltip-inner").html('<div class="tooltip-title">Basic (stable)</div> <div class="tooltip-content">Basic optimizations like image lazy loading, page cache etc</div>')
+
+                    //         return '';
+                    //     }
+                    // },
+                    ticks_tooltip: true,
+                    // ticks_tooltip: true,
+                    // lock_to_ticks: true,
+                    // step: 1
+                });
+
+                $(".optimzation-slider").mousemove(function(event) {
+                    let val = $("#berq_opt_mode").val();
+
+                    if ($(".slider-tick:nth-child(1)").is(":hover") || $('.tooltip-inner').html() == '1') {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Basic</div> <div class="tooltip-content">Basic optimizations like image lazy loading, page cache, URL prefectch etc.</div>')
+                    }
+
+                    if ($(".slider-tick:nth-child(2)").is(":hover") || $('.tooltip-inner').html() == '2') {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Medium</div> <div class="tooltip-content">Highly stable optimization mode for many cases.</div>')
+                    }
+
+                    if ($(".slider-tick:nth-child(3)").is(":hover") || $('.tooltip-inner').html() == '3') {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Blaze</div> <div class="tooltip-content">Balance between optimization and stability.</div>')
+                    }
+
+                    if ($(".slider-tick:nth-child(4)").is(":hover") || $('.tooltip-inner').html() == '4') {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Aggressive</div> <div class="tooltip-content">Provide the best possible speed scores.</div>')
+                    }
+                })
+
+                $("#berq_opt_mode").on("slide slideStop", function(slideEvt) {
+                    let val = $("#berq_opt_mode").val();
+
+                    if (val == 1) {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Basic (stable)</div> <div class="tooltip-content">Basic optimizations like image lazy loading, page cache etc</div>')
+                    }
+
+                    if (val == 2) {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Medium (stable)</div> <div class="tooltip-content">Basic optimizations like image lazy loading, page cache etc</div>')
+                    }
+
+                    if (val == 3) {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Blaze</div> <div class="tooltip-content">Basic optimizations like image lazy loading, page cache etc</div>')
+                    }
+
+                    if (val == 4) {
+                        $("div.tooltip-inner").html('<div class="tooltip-title">Aggressive</div> <div class="tooltip-content">Basic optimizations like image lazy loading, page cache etc</div>')
+                    }
+                })
+            }
+
+            function berq_clear_cache() {
+                $.ajax({
+                    url: '<?php echo esc_html(get_site_url()); ?>/wp-json/optifer/v1/clear-cache',
+                    method: 'POST',
+                    beforeSend: function(xhr) {
+                        xhr.setRequestHeader('X-WP-Nonce', berq_nounce);
+                    },
+                    success: function(response) {
+
+                    }
+                })
+            }
+
+            function berq_refresh_cache_stats() {
+                const controller = new AbortController();
+                bwp_controllers.push(controller);
+
+                $.ajax({
+                    url: ajaxurl,
+                    type: 'POST',
+                    data: {
+                        action: 'berqwp_refresh_cache_stats',
+                        nonce: berq_nounce,
+                    },
+                    signal: controller.signal,
+                    beforeSend: function(xhr) {
+                        xhr.setRequestHeader('X-WP-Nonce', berq_nounce);
+                    },
+                    success: function(data) {
+
+                        if (data.success) {
+
+                            $('.cache-percentage').html(`${data.data.cache_percentage}% (${data.data.cache_count}) of your pages are currently cached.`);
+
+                            $('.cached-pages-bar .progress-bar').css('width', `${data.data.cache_percentage}%`);
+
+                            // if (data.data.server_queue > 0) {
+                            //     $('.bwp-pending-optimization').html(`${data.data.server_queue} pending optimization`);
+
+                            // } else {
+                            //     $('.bwp-pending-optimization').html('');
+                            // }
+                        }
+
+                    },
+                    error: function() {
+                        console.log('Error in AJAX request.');
+                    }
+                });
+            }
+
+            // init_opt_slider();
+
+            $('.berqwp-tab[data-tab]').click(function() {
+                let tab = $(this).attr('data-tab');
+                $("html, body").animate({
+                    scrollTop: $(".berqwp-dashbaord").offset().top - 30
+                }, 200);
+
+                $('.berqwp-tab-content > form > div').css({
+                    'visibility': 'hidden',
+                    'display': 'none',
+                    'opacity': 0,
+                    'height': '0px',
+                    'overflow': 'hidden'
+                });
+                $('.berqwp-tab').removeClass('active');
+                $(this).addClass('active');
+                // $(`.berqwp-tab-content #${tab}`).show();
+                $(`.berqwp-tab-content #${tab}`).css({
+                    'visibility': 'visible',
+                    'display': 'block',
+                    'opacity': 1,
+                    'height': 'auto'
+                });
+
+                let tab_id = $(`.berqwp-tab-content #${tab}`).attr('id');
+                $('input[name="bwp_current_tab_id"]').val(tab_id);
+
+
+                // Get the current URL and its parts
+                const url = new URL(window.location.href);
+
+                // Check if 'tab_id' is present
+                if (url.searchParams.has('tab_id')) {
+                    // Update the 'tab_id' parameter value
+                    url.searchParams.set('tab_id', tab_id);
+
+                    // Update the address bar with the new URL (without reloading the page)
+                    window.history.replaceState(null, null, url.toString());
+                }
+
+
+
+            })
+
+            // let tab_id = $('input[name="bwp_current_tab_id"]').val();
+            // $(`.berqwp-tab[data-tab="${tab_id}"]`).trigger('click');
+            let is_admin_page_active = true;
+
+            // Visibility tracking - pause when tab hidden
+            document.addEventListener('visibilitychange', function() {
+                is_admin_page_active = !document.hidden;
+            });
+
+            // berq_refresh_cache_stats();
+
+            // setInterval(function() {
+
+            //     if (!is_admin_page_active) return;
+
+            //     berq_refresh_cache_stats();
+
+            // }, 10000)
+
+
+        })
+    })(jQuery)
+</script>
+<?php
+if (function_exists('pll_current_language')) {
+    $lang = !empty(pll_current_language()) ? pll_current_language() : 'all';
+    echo "<script>ajaxurl = ajaxurl + '?lang=$lang';</script>";
+}
+?>
+<script>
+    (function($) {
+        // $(document).ready(function () {
+        //     let table = new DataTable('.optimized-pages > table', {
+        //         // "paging": false, // Disable pagination
+        //         "searching": false, // Disable the search box
+        //         "pageLength": 5,
+        //         "info": false, // Disable the info text (e.g., "Showing 1 to 10 of 57 entries")
+        //         "lengthChange": false
+        //     });
+        // })
+
+
+        jQuery(document).ready(function($) {
+            var dataTable = $('.optimized-pages > table').DataTable({
+                ordering: false,
+                paging: true,
+                searching: true,
+                processing: true,
+                serverSide: true,
+                info: false,
+                lengthChange: false,
+                pageLength: 5,
+                ajax: function(data, callback, settings) {
+                    var start = settings._iDisplayStart;
+                    var length = settings._iDisplayLength;
+
+                    $.ajax({
+                        url: ajaxurl, // WordPress AJAX URL
+                        type: 'POST',
+                        data: {
+                            action: 'berqwp_get_optimized_pages',
+                            nonce: bwp_pages_nonce,
+                            start: start,
+                            length: length,
+                            search: data.search.value
+                        },
+                        success: function(response) {
+                            if (response.success) {
+                                callback({
+                                    draw: data.draw,
+                                    recordsTotal: response.data.total_entries, // Total number of records
+                                    recordsFiltered: response.data.records_filtered, // Total after filtering
+                                    data: response.data.optimized_pages // Data for the current page
+                                });
+                            } else {
+                                console.error("Error fetching data:", response);
+                            }
+                        },
+                        error: function(error) {
+                            console.error("AJAX error:", error);
+                        }
+                    });
+                },
+                columns: [{
+                        data: 'url',
+                        title: "Page URL"
+                    }, // Map 'url' to the first column
+                    {
+                        data: 'status',
+                        title: "Cache Status"
+                    }, // Map 'status' to the second column
+                    {
+                        data: 'last_modified',
+                        title: "Last Optimized Date"
+                    } // Map 'last_modified' to the third column
+                ]
+            });
+        });
+
+        $('[name="berqwp_lazyload_youtube_embed"]').on('change', function() {
+            if ($(this).is(':checked')) {
+                $('[name="berqwp_preload_yt_poster"]').parent().show();
+            } else {
+                $('[name="berqwp_preload_yt_poster"]').parent().hide();
+            }
+        });
+
+        // $(document).ready(function () {
+        //     const stickyDiv = $('.berqwp-dashbaord');
+        //     const offset = stickyDiv.offset().top;
+
+        //     $(window).on('scroll', function () {
+        //         if ($(this).scrollTop() + 30 >= offset) {
+        //             stickyDiv.addClass('sticky');
+        //             stickyDiv.parent().css('paddingBottom', '100vh');
+        //             setTimeout(function() {
+        //                 var resizeEvent = new Event('resize');
+        //                 window.dispatchEvent(resizeEvent);
+        //                 document.dispatchEvent(resizeEvent);
+        //             }, 300)
+        //         } else {
+        //             stickyDiv.removeClass('sticky');
+        //             stickyDiv.parent().css('paddingBottom', '0vh');
+        //             setTimeout(function() {
+        //                 var resizeEvent = new Event('resize');
+        //                 window.dispatchEvent(resizeEvent);
+        //                 document.dispatchEvent(resizeEvent);
+        //             }, 300)
+        //         }
+        //     });
+        // });
+
+
+
+
+
+
+
+    })(jQuery)
+</script>
+<script>
+    (function($) {
+        $(document).ready(function() {
+            let cache_lifespan_options = $('input[name="berqwp_cache_lifespan"], input[name="berq_opt_mode"]');
+
+            cache_lifespan_options.change(function() {
+                cache_lifespan_options.parent('label').removeClass('selected');
+                $('input[name="berqwp_cache_lifespan"]:checked, input[name="berq_opt_mode"]:checked').parent('label').addClass('selected');
+            })
+
+            $('input[name="berqwp_cache_lifespan"]:checked, input[name="berq_opt_mode"]:checked').parent('label').addClass('selected');
+        })
+    })(jQuery)
+</script>
+<script>
+    (function($) {
+        $(document).ready(function() {
+            let enable_compression_btn = $('a.berqwp-enable-page-compression');
+            let berq_nounce = '<?php echo esc_html(wp_create_nonce('wp_rest')); ?>';
+
+            enable_compression_btn.click(function(e) {
+                e.preventDefault();
+
+                let loader = enable_compression_btn.find('.berqwp-loader');
+                $.ajax({
+                    url: ajaxurl,
+                    type: 'POST',
+                    data: {
+                        action: 'berqwp_enable_page_compression',
+                        nonce: berq_nounce,
+                    },
+                    beforeSend: function(xhr) {
+                        xhr.setRequestHeader('X-WP-Nonce', berq_nounce);
+                        loader.show();
+                    },
+                    success: function(data) {
+                        loader.hide();
+
+                        if (data.success === true) {
+                            let currentUrl = window.location.href;
+                            let url = new URL(currentUrl);
+                            let params = new URLSearchParams(url.search);
+                            params.set('berqwp_page_compression_enabled', '');
+                            url.search = params.toString();
+                            window.location.href = url.toString();
+                        } else {
+                            alert("Page compression test failed: Your web server doesn't support Gzip compression.");
+                        }
+
+
+                    },
+                    error: function() {
+                        loader.hide();
+                        alert("Page compression test failed: Please check your internet connection.");
+                    }
+                });
+            })
+        })
+    })(jQuery)
+</script>

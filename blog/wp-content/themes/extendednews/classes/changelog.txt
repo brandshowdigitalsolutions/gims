@@ -1,0 +1,43 @@
+= 1.1.0 =
+* Fixed - Various small fixes.
+* Update - 6.2 compatibility
+
+= 1.0.9 =
+* Update - RTL support
+* Fixed  - Various small fixes.
+
+= 1.0.8 =
+* Fixed - Various small fixes.
+* Update - Site Branding
+* Changed - Regenerated pot file.
+
+= 1.0.7 =
+* Fixed - Some Responsive design issue
+
+= 1.0.6 =
+* New - Language File
+* New - Revamped About Page
+* Fix - RTL on Gallery slides
+
+= 1.0.5 =
+* Update - Display slides if column 1 is selected on Gallery
+* Fixed - RTL issue on some theme layouts
+* Fixed - Some design glitch
+
+= 1.0.4 =
+* Minor issue fixed.
+* Language file and other setting optimized
+
+= 1.0.3 =
+* Update adding about page and quick link fixed.
+* Minor issue fixed.
+
+= 1.0.2 =
+* Added demo data import plugin and one click setup
+
+= 1.0.1 =
+* JS error in mobile view Fixed
+* Minor Design Adjustment
+
+= 1.0.0 =
+* Initial release.

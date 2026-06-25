@@ -1,0 +1,788 @@
+# Copyright (C) 2026 CookieYes
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessiYes Accessibility Widget for ADA, EAA & WCAG Readiness 3.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-widget-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-08T08:57:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: accessibility-widget\n"
+
+#. Plugin Name of the plugin
+#: accessibility-widget.php
+msgid "AccessiYes Accessibility Widget for ADA, EAA & WCAG Readiness"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: accessibility-widget.php
+msgid "https://www.cookieyes.com/accessibility-widget/"
+msgstr ""
+
+#. Description of the plugin
+#: accessibility-widget.php
+msgid "A simple way to make your website more accessible."
+msgstr ""
+
+#. Author of the plugin
+#: accessibility-widget.php
+msgid "CookieYes"
+msgstr ""
+
+#. Author URI of the plugin
+#: accessibility-widget.php
+msgid "https://www.cookieyes.com/"
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:89
+msgid "Banner identifier."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:94
+msgid "Banner data to store (status, expiry, etc)."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:209
+msgid "Current page of the collection."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:217
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:226
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:233
+msgid "Force fetch data"
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:250
+msgid "Widget status."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:263
+msgid "Icon identifier."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:268
+msgid "Icon size in pixels."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:273
+msgid "Widget label."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:278
+msgid "Widget heading."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:283
+msgid "Widget position for different devices."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:296
+msgid "Widget language."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:312
+msgid "Widget margins in pixels."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:353
+msgid "Primary color in hex format."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:358
+msgid "List of dismissed banner IDs."
+msgstr ""
+
+#: lite/admin/modules/settings/api/class-api.php:367
+msgid "Widget modules configuration."
+msgstr ""
+
+#: lite/admin/app/src/App.tsx
+msgid "Customise widget"
+msgstr ""
+
+#: lite/admin/app/src/App.tsx
+msgid "Statement"
+msgstr ""
+
+#: lite/admin/app/src/App.tsx
+msgid "Settings"
+msgstr ""
+
+#: lite/admin/app/src/App.tsx
+msgid "Modules"
+msgstr ""
+
+#: lite/admin/app/src/App.tsx
+msgid "Please rate AccessiYes"
+msgstr ""
+
+#: lite/admin/app/src/App.tsx
+msgid "on"
+msgstr ""
+
+#: lite/admin/app/src/App.tsx
+msgid "to help us spread the word. Thank you from the team AccessiYes!"
+msgstr ""
+
+#: lite/admin/app/src/components/color-picker.tsx
+msgid "Pick custom color"
+msgstr ""
+
+#: lite/admin/app/src/components/color-picker.tsx
+msgid "Color picker"
+msgstr ""
+
+#: lite/admin/app/src/components/color-picker.tsx
+msgid "Heads up: We recommend checking your colour choice against WCAG AA contrast guidelines to ensure accessibility."
+msgstr ""
+
+#: lite/admin/app/src/components/color-picker.tsx
+msgid "Check contrast here →"
+msgstr ""
+
+#: lite/admin/app/src/components/header.tsx
+msgid "Widget enabled successfully"
+msgstr ""
+
+#: lite/admin/app/src/components/header.tsx
+msgid "Widget disabled successfully"
+msgstr ""
+
+#: lite/admin/app/src/components/header.tsx
+msgid "Failed to save changes"
+msgstr ""
+
+#: lite/admin/app/src/components/header.tsx
+msgid "Widget status"
+msgstr ""
+
+#: lite/admin/app/src/components/header.tsx
+msgid "Enabled"
+msgstr ""
+
+#: lite/admin/app/src/components/header.tsx
+msgid "Disabled"
+msgstr ""
+
+#: lite/admin/app/src/components/header.tsx
+msgid "Help"
+msgstr ""
+
+#: lite/admin/app/src/components/icon-selector.tsx
+msgid "Shape"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Invalid configuration format"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Configuration imported successfully!"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Import Config"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Import Configuration"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Import a widget configuration from JSON file or paste the configuration directly."
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Upload JSON File"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "or"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Paste Configuration JSON"
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Paste your widget configuration JSON here..."
+msgstr ""
+
+#: lite/admin/app/src/components/import-config-dialog.tsx
+msgid "Cancel"
+msgstr ""
+
+#: lite/admin/app/src/components/language-selector.tsx
+msgid "Select Language"
+msgstr ""
+
+#: lite/admin/app/src/components/language-selector.tsx
+msgid "Languages"
+msgstr ""
+
+#: lite/admin/app/src/components/language-selector.tsx
+msgid "Default"
+msgstr ""
+
+#: lite/admin/app/src/components/position-controls.tsx
+msgid "Desktop"
+msgstr ""
+
+#: lite/admin/app/src/components/position-controls.tsx
+msgid "Mobile"
+msgstr ""
+
+#: lite/admin/app/src/components/position-controls.tsx
+msgid "Margin(px)"
+msgstr ""
+
+#: lite/admin/app/src/components/position-controls.tsx
+msgid "Vertical"
+msgstr ""
+
+#: lite/admin/app/src/components/position-controls.tsx
+msgid "Horizontal"
+msgstr ""
+
+#: lite/admin/app/src/components/position-controls.tsx
+msgid "(Max 80px)"
+msgstr ""
+
+#: lite/admin/app/src/components/size-selector.tsx
+msgid "Size"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Statement copied to clipboard."
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Could not copy to clipboard."
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Statement generated"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Last updated:"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Preview"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Copy statement"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Edit"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Display in widget overlay"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Show this generated statement directly inside the AccessiYes widget."
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Close preview"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-generated.tsx
+msgid "Accessibility statement content"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-link.tsx
+msgid "Link your statement"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-link.tsx
+msgid "Already have an accessibility statement page? Link it here to make it accessible through the widget."
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-link.tsx
+msgid "Link statement on widget"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-link.tsx
+msgid "Accessibility statement URL"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-link.tsx
+msgid "E.g., yoursite.com/accessibility"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "Generate statement"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "Company Name"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "Company Inc."
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "Business E-mail"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "info@company.com"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "Website"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "https://company.com"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step1.tsx
+msgid "Next"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step2.tsx
+msgid "Conformance status"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step2.tsx
+msgid "1. Select the accessibility standards you follow."
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step2.tsx
+msgid "Please specify the standard"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step2.tsx
+msgid "2. Conformance status"
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step2.tsx
+msgid "The statement will be generated based on the information you provide and your own assessment. Please ensure that the details entered accurately reflect your website's accessibility status and applicable requirements."
+msgstr ""
+
+#: lite/admin/app/src/components/statement/statement-step2.tsx
+msgid "Back"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/customize-tab.tsx
+msgid "Widget customisation"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/customize-tab.tsx
+msgid "Set the look and feel of your accessibility widget to align with your website."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Modules section"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Enable or disable individual accessibility features for your users."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Content adjustments"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Adjust Font Sizing"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Highlight Title"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Highlight Links"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Dyslexia Friendly Font"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Font Weight"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Letter Spacing"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Line Height"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Align Left"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Colour adjustments"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Dark Contrast"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Light Contrast"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "High Contrast"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "High Saturation"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Low Saturation"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Monochrome"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Navigation adjustments"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Reading Guide"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Pause Animations"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/modules-tab.tsx
+msgid "Big Cursor"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/settings-tab.tsx
+msgid "General settings"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/settings-tab.tsx
+msgid "Control your widget's visibility on desktop and mobile devices."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/settings-tab.tsx
+msgid "Enable widget on desktop"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/settings-tab.tsx
+msgid "Enable widget on mobile layouts"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Changes saved successfully."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Failed to save changes."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Statement generated and saved."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Statement generated but could not be saved. Use Save changes."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Accessibility statement"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Generate and manage your website's accessibility statement."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Saving..."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Save changes"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Don't have an accessibility statement? Use our generator to create a professional statement."
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Get started"
+msgstr ""
+
+#: lite/admin/app/src/components/tabs/statement-generator-tab.tsx
+msgid "Generating statement..."
+msgstr ""
+
+#: lite/admin/app/src/components/ui/banner.tsx
+msgid "Dismiss banner"
+msgstr ""
+
+#: lite/admin/app/src/components/ui/banner.tsx
+msgid "Sponsored recommendation"
+msgstr ""
+
+#: lite/admin/app/src/components/ui/banner.tsx
+msgid "Beyond Widgets. Continue Your Accessibility Journey."
+msgstr ""
+
+#: lite/admin/app/src/components/ui/banner.tsx
+msgid "You have taken the first step towards accessibility. Now level up with deeper audits, ongoing monitoring for accessibility issues, and detailed reporting with AI-assisted solutions."
+msgstr ""
+
+#: lite/admin/app/src/components/ui/banner.tsx
+msgid "Explore WebYes. One platform, better fixes."
+msgstr ""
+
+#: lite/admin/app/src/components/ui/banner.tsx
+msgid "Run a scan with WebYes"
+msgstr ""
+
+#: lite/admin/app/src/components/ui/review-banner.tsx
+msgid "Dismiss review banner"
+msgstr ""
+
+#: lite/admin/app/src/components/ui/review-banner.tsx
+msgid "Hey, we at"
+msgstr ""
+
+#: lite/admin/app/src/components/ui/review-banner.tsx
+msgid "would like to thank you for using our plugin. We would really appreciate if you could take a moment to drop a quick review that will inspire us to keep going."
+msgstr ""
+
+#: lite/admin/app/src/components/ui/review-banner.tsx
+msgid "Review now"
+msgstr ""
+
+#: lite/admin/app/src/components/ui/review-banner.tsx
+msgid "Never show again"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-appearance.tsx
+msgid "Widget language"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-appearance.tsx
+msgid "Note: The widget will appear in the visitor's browser language. If it's not in our supported list, it will show in the language you've selected."
+msgstr ""
+
+#: lite/admin/app/src/components/widget-appearance.tsx
+msgid "Widget colour"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-appearance.tsx
+msgid "Widget icon"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-content.tsx
+msgid "Widget label"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-content.tsx
+msgid "Choose a WCAG compliant color with proper contrast ratios"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-content.tsx
+msgid "Widget Heading"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-positioning.tsx
+msgid "Widget position"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-publish.tsx
+msgid "Changes published successfully"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-publish.tsx
+msgid "Failed to publish changes"
+msgstr ""
+
+#: lite/admin/app/src/components/widget-publish.tsx
+msgid "Applying..."
+msgstr ""
+
+#: lite/admin/app/src/components/widget-publish.tsx
+msgid "Apply changes"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "WCAG 2.2 Level AA"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "WCAG 2.1 Level AA"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "WCAG 2.0 Level AA"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Other"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Fully conformant"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "The content fully conforms to the selected accessibility standard."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Partially conformant"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Some parts of the content do not fully conform to the selected accessibility standard."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Non conformant"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "The content does not conform to the selected accessibility standard."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Not assessed"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "The content has not been evaluated or results are not available."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Accessibility Commitment"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "{{company_name}} is committed to improving the accessibility and usability of {{website_url}} for all users, including people with disabilities. We aim to provide an inclusive digital experience and continuously work toward enhancing accessibility across our website."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Accessibility Target Standard"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "We aim to align our website with <strong>{{accessibility_standard}}</strong> accessibility standards."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "This target standard guides our accessibility efforts and ongoing improvements."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Current Conformance Status"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Based on our internal review, this website is <strong>{{conformance_status}}</strong> with <strong>{{accessibility_standard}}</strong>."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "This status reflects our evaluation at the time of publication and is based on our internal review and available information. Accessibility is an ongoing process, and conformance levels may evolve as updates are implemented."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Accessibility Features"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "To support accessibility, this website includes the AccessiYes accessibility interface. This interface allows users to adjust certain visual and usability settings according to their individual needs, such as:"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Text size and spacing adjustments"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Contrast and color settings"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Highlighting tools"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Other assistive viewing options"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "These tools are intended to improve user experience, but do not replace the need for accessible content and proper underlying website structure."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Limitations and Technical Considerations"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Please note the following:"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "The availability and effectiveness of accessibility features depend on the website's configuration and ongoing maintenance."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "While we strive to ensure accessibility across <strong>{{website_url}}</strong>, some content or features may not yet fully meet the selected accessibility standards. Some content may be provided by third parties or affected by technical constraints beyond our immediate control."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Additionally, there may be certain legacy content or integrations that may not yet fully align with the selected accessibility standard. We are actively working to identify and address accessibility barriers within our control."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Feedback and Contact"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "If you experience any difficulty accessing content on this website or would like to report an accessibility issue, please contact us:"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Email:"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "When contacting us, please include the specific page URL and a description of the issue so we can investigate and respond appropriately."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Continuous Improvement"
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Accessibility is an ongoing effort. We regularly review our website and evaluate opportunities to improve accessibility and usability."
+msgstr ""
+
+#: lite/admin/app/src/constants/statement-constants.ts
+msgid "Last updated: {{last_updated}}"
+msgstr ""

@@ -15,6 +15,7 @@ include('admin/function.php');
             name="keywords"
             content="PGDM College, Alumni Newsletter, Educational Leadership, Visionary Leaders, Academic Excellence, Higher Education, College Governance, Institutional Leadership, College Trustees, Decision-Making Body"
         />
+        
         <meta name="author" content="BrandShow" />
         <meta name="Robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
